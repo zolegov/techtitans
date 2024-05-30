@@ -34,12 +34,12 @@
 .ac .ac-header {
   margin-bottom: 8px;
 }
-.fac-container .accordion-container .ac .ac-trigger::after {
+/*.fac-container .accordion-container .ac .ac-trigger::after {
   content: '';
   display: inline-block;
-  width: 16px; /* Ширина вашої іконки */
-  height: 16px; /* Висота вашої іконки */
-  background: url('../img/svg/arrow-down.svg') no-repeat center !important;
+  width: 16px;
+  height: 16px;
+  background: url('../img/svg/icons.svg#up') no-repeat center !important;
   background-size: contain;
   color: transparent;
   position: absolute;
@@ -49,14 +49,14 @@
 .ac.is-active > .ac-header .ac-trigger::after {
   content: '';
   display: inline-block;
-  width: 16px; /* Ширина вашої іконки */
-  height: 16px; /* Висота вашої іконки */
+  width: 16px;  
+  height: 16px;  
   background: url('../img/svg/arrow-up.svg') no-repeat center !important;
   background-size: contain;
   position: absolute;
   top: 25px;
   right: 15px;
-}
+} */
 .fac-container .accordion-container .ac .ac-trigger {
   font-family: Poppins;
   font-weight: 400;
@@ -79,7 +79,13 @@
   color: #000;
   padding: 16px 8px 6px 8px;
 }
-
+.faq-title-bg img {
+  display: none;
+}
+.faq-title-bg {
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (min-width: 768px) {
   .faq-title {
     font-size: 108px;
@@ -111,7 +117,79 @@
     width: 100%;
     padding-top: 275px;
   }
-  .faq-title img {
-    transform: scaleY(-1);
+  .faq-title-bg img {
+    display: block;
+    margin-top: auto;
   }
+}
+/* ******************************** */
+/* @charset "UTF-8"; */
+/**
+ * Accordion v3.3.4
+ * Lightweight and accessible accordion module created in pure Javascript
+ * https://github.com/michu2k/Accordion
+ *
+ * Copyright (c) Michał Strumpf
+ * Published under MIT License
+ */
+
+.ac {
+  margin-top: 8px;
+  border: 1px solid #eee;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.ac .ac-header {
+  margin: 0;
+  padding: 0;
+}
+.ac .ac-trigger {
+  font: bold 16px 'Arial', sans-serif;
+  color: #111;
+  text-align: left;
+  width: 100%;
+  padding: 8px 32px 8px 8px;
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+  transition: color 0.25s ease;
+  position: relative;
+  text-decoration: none;
+  margin: 0;
+  border: 0;
+}
+.ac .ac-trigger::after {
+  content: '>';
+  text-align: center;
+  width: 15px;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: rotate(90deg);
+}
+.ac .ac-trigger:focus {
+  color: #8a8a8a;
+}
+.ac .ac-panel {
+  overflow: hidden;
+  transition-property: height, visibility;
+  transition-timing-function: ease;
+}
+.ac .ac-panel .ac-text {
+  font: 15px/24px 'Arial', sans-serif;
+  color: #111;
+  padding: 8px;
+  margin: 0;
+}
+.ac.js-enabled .ac-panel {
+  visibility: hidden;
+}
+.ac.is-active .ac-panel {
+  visibility: visible;
+}
+.ac.is-active > .ac-header .ac-trigger::after {
+  content: '<';
+  transform: rotate(90deg);
 }
