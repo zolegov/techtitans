@@ -1,3 +1,14 @@
-.faq {
-  color: blueviolet;
+.faq-title span {
+  color: #00b068;
+}
+
+.faq-title {
+  font-family: Impact;
+
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
 }
