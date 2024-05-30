@@ -29,9 +29,9 @@
 .ac-header {
   margin-bottom: 24px;
 }
-.accordion-container .ac .ac-trigger::after {
-  content: '\005E';
-}
+/* .accordion-container .ac .ac-trigger::after {
+
+} */
 .ac-trigger {
   font-family: Poppins;
   font-weight: 400;
