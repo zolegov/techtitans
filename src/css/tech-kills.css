@@ -1,3 +1,91 @@
-.tech-kills {
-  color: cornflowerblue;
+.tech-skills .container {
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+}
+
+/* Top container */
+
+.logo-container {
+  padding: 32px 0;
+  white-space: nowrap;
+  display: flex;
+  gap: 16px;
+  background-color: #bcdfd1;
+}
+
+.logo-slider {
+  animation: 10000ms slide linear infinite;
+  display: flex;
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+
+  color: #292929;
+
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.logo-container .logo-item::before {
+  content: '';
+  margin: 0 16px;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background-color: #00b068;
+  display: inline-block;
+}
+
+/* Bottom container */
+
+.logo-container-bottom {
+  background-color: #e4e5e6;
+  transform: rotate(2deg);
+  position: relative;
+  z-index: -1;
+}
+.logo-container-bottom .logo-item {
+  position: relative;
+  left: -85px;
+  color: #00b068;
+}
+
+.logo-container-bottom .logo-item::before {
+  background-color: #292929;
+}
+
+.logo-container .logo-item:nth-of-type(1)::before {
+  margin-left: 0;
 }
