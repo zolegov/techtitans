@@ -1,3 +1,131 @@
 .work-together {
-  color: chartreuse;
+  margin-bottom: 80px;
+}
+
+.work-together-title {
+  font-family: Impact, sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #00b068;
+}
+
+.highlight {
+  color: black;
+}
+
+.work-together-contacts {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 320px;
+  height: 220px;
+}
+
+.work-together-contacts-title {
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: black;
+}
+
+.contact {
+  margin-bottom: 40px;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.contacts-img {
+  margin-right: 16px;
+}
+
+.contacts-item-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: black;
+}
+
+.work-together-form {
+  margin-right: 20px;
+}
+
+.work-together-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-text,
+.textarea-text {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  border: none;
+  width: 320px;
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: lightgrey;
+  margin-bottom: 32px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: black;
+}
+
+.textarea-text {
+  height: 128px;
+  padding-top: 16px;
+  resize: none;
+}
+
+.form-button {
+  border-radius: 8px;
+  padding: 12px 24px;
+  width: 320px;
+  height: 48px;
+  background: #00b068;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.form-button:focus {
+  background: #009156;
+}
+
+/******* css для відображення невалідного імейла в інпуті 
+(необхідно прописати функцію в js /*******/
+
+/* .invalid-email {
+  color: red;
+}
+
+.invalid-email::after {
+  content: 'Invalid email, try again';
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+} */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1280px) {
 }
