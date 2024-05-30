@@ -1,3 +1,6 @@
+.faq {
+  padding-bottom: 80px;
+}
 .fac-container {
   margin: 0 auto;
 }
@@ -16,23 +19,45 @@
   margin-bottom: 40px;
 }
 .accordion-container .ac {
-  padding: 28px 24px;
+  /* padding: 28px 24px; */
+  padding: 20px 16px;
   width: 320px;
   border: transparent;
   border-bottom: 1px solid #ccc;
+  margin: 0;
 }
 .ac.is-active {
   background: rgba(0, 176, 104, 0.2);
   border-radius: 16px;
   color: #000;
 }
-.ac-header {
-  margin-bottom: 24px;
+.ac .ac-header {
+  margin-bottom: 8px;
 }
-/* .accordion-container .ac .ac-trigger::after {
-
-} */
-.ac-trigger {
+.fac-container .accordion-container .ac .ac-trigger::after {
+  content: '';
+  display: inline-block;
+  width: 16px; /* Ширина вашої іконки */
+  height: 16px; /* Висота вашої іконки */
+  background: url('../img/svg/arrow-down.svg') no-repeat center !important;
+  background-size: contain;
+  color: transparent;
+  position: absolute;
+  right: 15px;
+  top: 25px;
+}
+.ac.is-active > .ac-header .ac-trigger::after {
+  content: '';
+  display: inline-block;
+  width: 16px; /* Ширина вашої іконки */
+  height: 16px; /* Висота вашої іконки */
+  background: url('../img/svg/arrow-up.svg') no-repeat center !important;
+  background-size: contain;
+  position: absolute;
+  top: 25px;
+  right: 15px;
+}
+.fac-container .accordion-container .ac .ac-trigger {
   font-family: Poppins;
   font-weight: 400;
   font-size: 18px;
@@ -42,14 +67,51 @@
   color: #000;
   border: none;
   background-color: transparent;
-  width: 224px;
   text-align: left;
+  padding: 8px 50px 8px 8px;
 }
-.ac-text {
+.fac-container .accordion-container .ac .ac-panel .ac-text {
   font-family: Poppins;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #000;
+  padding: 16px 8px 6px 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .faq-title {
+    font-size: 108px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 40px;
+  }
+  .accordion-container .ac {
+    width: 100%;
+  }
+  .faq {
+    padding-bottom: 124px;
+  }
+  .fac-container .accordion-container .ac .ac-trigger {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .faq-title {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .fac-container {
+    display: flex;
+  }
+  .accordion-container {
+    width: 100%;
+    padding-top: 275px;
+  }
+  .faq-title img {
+    transform: scaleY(-1);
+  }
 }
