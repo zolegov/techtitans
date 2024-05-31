@@ -1,7 +1,7 @@
 .benefits-section {
   max-width: 360px;
-  display: flex;
   margin: 0 auto;
+  padding-bottom: 80px;
 }
 
 .benefits-wrap {
@@ -15,11 +15,11 @@
 
 .benefits-header {
   max-width: 320px;
-  font-family: Impact;
+  font-family: 'Impact';
   font-size: 52px;
   font-weight: 400;
-  line-height: 64px;
-  letter-spacing: -0.02em;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
@@ -29,11 +29,12 @@
 }
 
 .benefit-title {
+  font-family: 'Poppins';
   color: rgb(41, 41, 41);
   font-size: 18px;
   font-weight: 400;
-  line-height: 28px;
-  letter-spacing: -0.01em;
+  line-height: 1.55;
+  letter-spacing: 0.5px;
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -53,32 +54,22 @@
 }
 
 .benefit-paragraph {
+  font-family: 'Poppins';
   color: rgb(41, 41, 41);
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
-  letter-spacing: -0.02em;
-  text-align: left;
+  letter-spacing: 0.5px;
 }
 
 @media (min-width: 768px) {
   .benefits-section {
     max-width: 768px;
+    padding-bottom: 124px;
   }
 
   .benefits-wrap {
     max-width: 768px;
-  }
-
-  .benefits-list {
-    width: 704px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-  }
-
-  .benefits-list-item {
-    width: 336px;
   }
 
   .benefits-header {
@@ -86,7 +77,6 @@
     font-weight: 400;
     line-height: 124px;
     letter-spacing: 1.8px;
-    text-align: left;
     text-transform: uppercase;
     max-width: 704px;
   }
@@ -95,5 +85,14 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+  }
+
+  .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .benefits-list-item {
+    min-width: 336px;
   }
 }
