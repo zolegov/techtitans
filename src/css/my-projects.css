@@ -122,16 +122,20 @@
     gap: 32px;
     margin-top: 20px;
   }
+  .my-projects-subtitle-wrap {
+    width: 547px;
+  }
 
   .my-projects-subtitle {
     font-size: 36px;
     line-height: 1.33;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.01em;
   }
 
   .my-project-link-wrap {
     position: unset;
     padding: 0;
+    margin: 0;
   }
 
   .my-project-link {
@@ -139,6 +143,9 @@
   }
 
   .my-project-btn {
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
   }
 }
 
