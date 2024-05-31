@@ -1,12 +1,20 @@
 <header class="header" id="header">
     <div class="header-container">
-        <a class="logo" href="/">Lloyd<span class="logo-green">Jefferson.</span></a>
-        <button class="burger-icon" type="button">&#9776;</button>
-        <button class="close-modal" type="button">&times;</button>
+        <a class="logo" href="../index.html">Lloyd<span class="logo-green">Jefferson.</span></a>
+        <button class="burger-icon" type="button">
+            <svg width="32" height="32" class="icon-color">
+                <use href="../img/svg/sprite.svg#icon-burger"></use>
+            </svg>
+        </button>
+        <button class="close-modal" type="button">
+            <svg width="32" height="32" class="icon-color">
+                <use href="../img/svg/sprite.svg#icon-cross"></use>
+            </svg>
+        </button>
         <nav class="header-navigation">
             <ul class="header-menu">
-                <li class="header-menu-item"><a class="header-menu-link" href="#about">About me</a></li>
-                <li class="header-menu-item"><a class="header-menu-link" href="#my-projects">Projects</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#about-me">About me</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#my-project">Projects</a></li>
                 <li class="header-menu-item"><a class="header-menu-link" href="#work-together">Contacts</a></li>
             </ul>
         </nav>
@@ -15,12 +23,13 @@
 
 <div class="modal-header">
     <div class="modal-content">
-        <nav class="header-navigation">
+        <nav>
             <ul class="header-menu">
-                <li class="header-menu-item"><a class="header-menu-link" href="#about">About me</a></li>
-                <li class="header-menu-item"><a class="header-menu-link" href="#my-projects">Projects</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#about-me">About me</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#my-project">Projects</a></li>
                 <li class="header-menu-item"><a class="header-menu-link" href="#work-together">Contacts</a></li>
             </ul>
         </nav>
     </div>
 </div>
+<script src="../js/header.js" type="module" defer></script>
