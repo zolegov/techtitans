@@ -1,11 +1,12 @@
 .section-projects {
-  margin-bottom: 164px;
+  padding-bottom: 80px;
 }
 
 .container {
 }
+
 .my-projects-title {
-  width: 291px;
+  text-align: center;
   color: #292929;
   font-family: Impact;
   font-size: 52px;
@@ -17,12 +18,35 @@
 .my-projects-title > span {
   color: #00b068;
 }
-.list-projects {
+.my-projects-list {
+  /* display: flex;
+  flex-direction: column;
+  gap: 40px; */
+  margin-bottom: 52px;
 }
-.projects-item {
+
+.my-projects-item {
+  margin-bottom: 40px;
 }
+.my-projects-list li:last-child {
+  margin-bottom: 0;
+}
+
+.my-project-text {
+  margin-top: 12px;
+  color: #292929;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.my-projects-wrap {
+  margin-top: 16px;
+}
+
 .my-projects-subtitle {
-  margin: 16px 0;
   color: #292929;
   font-family: Poppins;
   font-size: 32px;
@@ -31,12 +55,42 @@
   letter-spacing: 0.01em;
   text-transform: uppercase;
 }
-.my-project-text {
-  margin-top: 12px;
+
+.my-project-link-wrap {
+  position: relative;
+  margin-top: 16px;
+  padding: 20px 0;
+}
+
+.my-project-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 125px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #e4e5e6;
   color: #292929;
   font-family: Poppins;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
+}
+
+.my-project-btn {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid #00b068;
+  color: #292929;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
