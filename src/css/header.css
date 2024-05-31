@@ -24,13 +24,13 @@ html {
   font-style: normal;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .icon-color {
-  fill: #292929;
+  stroke: #292929;
 }
 
 .logo-green {
