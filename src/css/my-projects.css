@@ -1,3 +1,42 @@
-p {
-  color: red;
+.section-projects {
+  margin-bottom: 164px;
+}
+
+.container {
+}
+.my-projects-title {
+  width: 291px;
+  color: #292929;
+  font-family: Impact;
+  font-size: 52px;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.my-projects-title > span {
+  color: #00b068;
+}
+.list-projects {
+}
+.projects-item {
+}
+.my-projects-subtitle {
+  margin: 16px 0;
+  color: #292929;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+.my-project-text {
+  margin-top: 12px;
+  color: #292929;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.3em;
 }
