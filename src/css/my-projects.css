@@ -19,9 +19,6 @@
   color: #00b068;
 }
 .my-projects-list {
-  /* display: flex;
-  flex-direction: column;
-  gap: 40px; */
   margin-bottom: 52px;
 }
 
@@ -93,4 +90,57 @@
   line-height: 1.55;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .section-projects {
+    margin-bottom: 124px;
+  }
+
+  .my-projects-title {
+    font-size: 106px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    margin-bottom: 60px;
+  }
+
+  .my-projects-list {
+    margin-bottom: 60px;
+  }
+
+  .my-projects-item {
+    margin-bottom: 60px;
+  }
+
+  .my-project-text {
+    margin-top: 16px;
+  }
+
+  .my-projects-wrap {
+    display: flex;
+    gap: 32px;
+    margin-top: 20px;
+  }
+
+  .my-projects-subtitle {
+    font-size: 36px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+  }
+
+  .my-project-link-wrap {
+    position: unset;
+    padding: 0;
+  }
+
+  .my-project-link {
+    position: unset;
+  }
+
+  .my-project-btn {
+  }
+}
+
+@media screen and (min-width: 1280px) {
 }
