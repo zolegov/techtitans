@@ -1,4 +1,12 @@
 /* Mobile-first styles */
+body.modal-open {
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .header-container {
   width: 100%;
   min-width: 320px;
@@ -19,6 +27,10 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.icon-color {
+  fill: #292929;
 }
 
 .logo-green {
@@ -45,8 +57,7 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.05em;
-  padding: 8px 12px;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -57,7 +68,8 @@
 
 .burger-icon,
 .close-modal {
-  font-size: 32px;
+  width: 32px;
+  height: 32px;
   background: none;
   border: none;
   cursor: pointer;
@@ -73,14 +85,26 @@
 }
 
 .modal-header {
-  display: none;
+  background-image: url("../img/decor-bg/decor-bg-5-2x.png");
+  background-color: white;
+  background-size: 95%;
   position: fixed;
-  top: 0;
+  top: -100%;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: calc(100% - 75px);
   justify-content: center;
   align-items: center;
+  transition: top 0.5s ease;
+  display: flex;
+}
+
+.modal-header.is-active {
+  top: 75px;
+}
+
+.modal-header.is-hidden {
+  top: -100%;
 }
 
 .modal-content {
@@ -100,8 +124,10 @@
     padding: 32px;
   }
 
-  .burger-icon, .modal-content, .modal-header {
-    display: none;
+  .burger-icon,
+  .modal-header,
+  .close-modal {
+    display: none !important;
   }
 
   .header-navigation {
@@ -115,5 +141,6 @@
 
   .logo {
     font-size: 32px;
+    letter-spacing: 0.05em;
   }
 }
