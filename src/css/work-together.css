@@ -1,7 +1,3 @@
-.work-together {
-  margin-bottom: 80px;
-}
-
 .work-together-title {
   font-family: Impact, sans-serif;
   font-weight: 400;
@@ -56,8 +52,13 @@
   color: black;
 }
 
+.contacts-item-text:hover {
+  color: #00b068;
+}
+
 .work-together-form {
-  margin-right: 20px;
+  width: 320px;
+  height: 288px;
 }
 
 .work-together-input {
@@ -106,8 +107,107 @@
   cursor: pointer;
 }
 
-.form-button:focus {
+.form-button:hover {
   background: #009156;
+}
+
+.separator {
+  border: none;
+  height: 1px;
+  background-color: #cccccc;
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .work-together-title {
+    font-size: 108px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+  }
+  .work-together-contacts {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 639px;
+    height: 120px;
+  }
+  .work-together-contacts-title {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .contacts-list {
+    display: flex;
+  }
+
+  .contacts-list .contacts-item:not(:first-child) {
+    margin-left: 16px;
+  }
+  .contacts-item {
+    margin-bottom: 0;
+  }
+  .work-together-form {
+    width: 704px;
+    height: 288px;
+  }
+  .input-text,
+  .textarea-text {
+    width: 704px;
+    height: 48px;
+  }
+  .textarea-text {
+    height: 128px;
+    padding: 16px;
+    resize: none;
+  }
+
+  .form-button {
+    width: 173px;
+    height: 48px;
+  }
+
+  .separator {
+    margin-top: 124px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contacts-form {
+    margin-top: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .work-together-contacts {
+    margin-top: 0;
+    width: 50%;
+  }
+
+  .work-together-contacts-title {
+    margin-bottom: 120px;
+    padding-bottom: 0;
+  }
+
+  .contacts-list {
+    display: block;
+  }
+
+  .contacts-list .contacts-item:not(:first-child) {
+    margin-left: 0;
+  }
+  .contacts-item {
+    margin-bottom: 16px;
+  }
+
+  .work-together-form {
+    width: 50%;
+  }
+
+  .input-text,
+  .textarea-text {
+    width: 100%;
+  }
+  .separator {
+    margin-top: 164px;
+  }
 }
 
 /******* css для відображення невалідного імейла в інпуті 
@@ -123,9 +223,3 @@
   font-size: 14px;
   margin-top: 5px;
 } */
-
-@media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 1280px) {
-}
