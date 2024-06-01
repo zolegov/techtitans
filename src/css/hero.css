@@ -3,11 +3,14 @@
 }
 
 .hero-container {
-  background-image: url(../img/decor-bg/decor-bg-1.webp);
+  padding-bottom: 72px;
+  background-image: url(../img/hero/hero-decor-bg-mob.png);
+  background-size: 320px 704px;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
-.hero-container-bg{
+.hero-container-bg{  
 } 
 
 .hero-title {
@@ -61,7 +64,7 @@
   border-radius: 16px;
   background-color: rgba(0, 176, 104, 0.20);
   position:absolute;
-  top: -36px;
+  top: -34px;
   left: 155px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -73,7 +76,6 @@
 
 .hero-info {
   padding-top: 72px;
-  padding-bottom: 72px;
   color: #292929;
   font-size: 18px;
   line-height: 1.55556;
@@ -114,7 +116,12 @@
     padding-bottom: 124px;
   }
 
-  .hero-container {
+  /* .hero-container {
+    background-image: url(../img/decor-bg/decor-bg-5.webp);
+    background-repeat: no-repeat;
+  } */
+
+  .hero-container-bg {
     background-image: url(../img/decor-bg/decor-bg-5.webp);
     background-repeat: no-repeat;
   }
@@ -167,7 +174,12 @@
     padding-bottom: 164px;
   }
   
-  .hero-container {
+  /* .hero-container {
+    background-image: url(../img/decor-bg/decor-bg-4.webp);
+    background-repeat: no-repeat;
+  } */
+
+  .hero-container-bg {
     background-image: url(../img/decor-bg/decor-bg-4.webp);
     background-repeat: no-repeat;
   }
