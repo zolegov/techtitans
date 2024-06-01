@@ -12,6 +12,7 @@ addEventListener('load', async () => {
     const errorContainer = `
             <div class="errorContainer">
                 <h3 class="not-found-title">Oops, something went wrong...😱</h3>
+                <p class="not-found-text">Reviews not found..</p>
             </div>
           `;
     listContainerEl.innerHTML = errorContainer;

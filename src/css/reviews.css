@@ -102,6 +102,19 @@
   line-height: 1.23;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.not-found-text {
+  text-align: center;
+  color: #292929;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0.027em;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
@@ -130,6 +143,10 @@
 
   .not-found-title {
     font-size: 52px;
+    margin-bottom: 32px;
+  }
+  .not-found-text {
+    font-size: 32px;
   }
 }
 @media screen and (min-width: 1280px) {
