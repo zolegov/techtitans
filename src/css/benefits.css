@@ -24,6 +24,10 @@
   margin-bottom: 40px;
 }
 
+.desktop-background {
+  display: none;
+}
+
 .benefit-icon {
   margin-bottom: 16px;
 }
@@ -135,6 +139,13 @@
   .benefits-wrap {
     max-width: 1280px;
     padding: 0;
+    position: relative;
+  }
+
+  .benefit-title {
+    display: flex;
+    align-items: end;
+    grid-area: head-img;
   }
 
   .benefits-header {
@@ -142,19 +153,32 @@
     letter-spacing: 1.8px;
   }
 
+  .desktop-background {
+    position: absolute;
+    bottom: 70%;
+    left: 57%;
+    max-width: 526px;
+    min-height: 408px;
+    display: block;
+  }
+
   .benefits-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
     align-items: start;
+    grid-template-areas:
+      'head-img'
+      'list';
   }
 
   .benefits-list {
+    position: relative;
+    bottom: 23%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto;
     grid-gap: 32px;
     width: 100%;
+    grid-area: list;
   }
 
   .benefits-list-item {
