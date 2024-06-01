@@ -1,6 +1,3 @@
-.work-together {
-}
-
 .work-together-title {
   font-family: Impact, sans-serif;
   font-weight: 400;
@@ -207,6 +204,9 @@
   .input-text,
   .textarea-text {
     width: 100%;
+  }
+  .separator {
+    margin-top: 164px;
   }
 }
 
