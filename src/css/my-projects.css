@@ -24,6 +24,10 @@
 
 .my-projects-item {
   margin-bottom: 40px;
+
+  &.is-hidden {
+    display: none;
+  }
 }
 .my-projects-list li:last-child {
   margin-bottom: 0;
@@ -77,6 +81,14 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.my-project-link:hover,
+.my-project-link:hover {
+  background-color: #bbb;
 }
 
 .my-project-btn {
@@ -91,6 +103,14 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   background-color: transparent;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.my-project-btn:hover,
+.my-project-btn:hover {
+  color: #00b068;
 }
 
 @media screen and (min-width: 768px) {
