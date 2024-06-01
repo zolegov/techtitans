@@ -55,6 +55,10 @@
   color: black;
 }
 
+.contacts-item-text:focus {
+  color: #00b068;
+}
+
 .work-together-form {
   width: 320px;
   height: 288px;
