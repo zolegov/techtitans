@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-      <symbol id="icon-arrow-right" viewBox="0 0 32 32">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M5.333 16h21.333M18.667 8l8 8-8 8"/>
+    <symbol id="icon-arrow-right" viewBox="0 0 32 32">
+      <path stroke-width=".667" d="M8 .333h16a5 5 0 0 1 5 5v16a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-16a5 5 0 0 1 5-5z"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="M10.667 13.333h10.667M17.333 9.333l4 4-4 4"/>
     </symbol>
     <symbol id="icon-arrow-left" viewBox="0 0 32 32">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M26.667 16H5.334M13.333 24l-8-8 8-8"/>
+      <path stroke-width=".667" d="M24 .333H8a5 5 0 0 0-5 5v16a5 5 0 0 0 5 5h16a5 5 0 0 0 5-5v-16a5 5 0 0 0-5-5z"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="M21.333 13.333H10.666M14.667 9.333l-4 4 4 4"/>
     </symbol>
     <symbol id="icon-arrow-down" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-width="2" d="m22 13-6 6-6-6"/>

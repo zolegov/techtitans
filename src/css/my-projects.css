@@ -24,6 +24,10 @@
 
 .my-projects-item {
   margin-bottom: 40px;
+
+  &.is-hidden {
+    display: none;
+  }
 }
 .my-projects-list li:last-child {
   margin-bottom: 0;
@@ -77,6 +81,14 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.my-project-link:hover,
+.my-project-link:hover {
+  background-color: #bbb;
 }
 
 .my-project-btn {
@@ -91,22 +103,30 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   background-color: transparent;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.my-project-btn:hover,
+.my-project-btn:hover {
+  color: #00b068;
 }
 
 @media screen and (min-width: 768px) {
   .section-projects {
-    margin-bottom: 124px;
+    padding-bottom: 124px;
   }
 
   .my-projects-title {
-    font-size: 106px;
+    font-size: 108px;
     line-height: 1.15;
     letter-spacing: 0.02em;
     margin-bottom: 60px;
   }
 
   .my-projects-list {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
 
   .my-projects-item {
@@ -150,4 +170,30 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .section-projects {
+    padding-bottom: 164px;
+  }
+
+  .my-projects-title {
+    margin-bottom: 80px;
+  }
+
+  .my-projects-list {
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-projects-item {
+    margin-bottom: 80px;
+  }
+
+  .my-projects-wrap {
+    gap: 120px;
+  }
+
+  .my-projects-subtitle-wrap {
+    width: 763px;
+  }
 }
