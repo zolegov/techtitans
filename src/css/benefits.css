@@ -93,9 +93,11 @@
   }
 
   .benefits-list {
+    position: relative;
+    bottom: 25px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 32px;
+    gap: 32px;
   }
 
   .benefit-title {
@@ -142,7 +144,7 @@
     position: relative;
   }
 
-  .benefit-title {
+  .benefit-header-title {
     display: flex;
     align-items: end;
     grid-area: head-img;
@@ -171,7 +173,6 @@
   }
 
   .benefits-list {
-    position: relative;
     bottom: 23%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
