@@ -85,10 +85,11 @@ html {
 
 .modal-header {
   background-image: url("../img/decor-bg/decor-bg-5-2x.png");
-  background-color: white;
+  background-color: #f0f0f0;
   background-size: 95%;
   position: fixed;
   top: -100%;
+  z-index: 999;
   left: 0;
   width: 100%;
   height: calc(100% - 75px);
