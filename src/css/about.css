@@ -1,3 +1,131 @@
-.about {
-  color: aqua;
+.about-me-section {
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.container {
+}
+.about-me {
+}
+
+.about-title {
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.23077;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 40px;
+}
+
+.title-span {
+  color: #00b068;
+}
+
+.about-img {
+  margin-bottom: 40px;
+}
+
+.about-discription {
+}
+
+.bio {
+  margin-bottom: 40px;
+}
+
+.about-title-second {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 32px;
+}
+
+.bio-part-one {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+  margin-bottom: 20px;
+}
+
+.bio-part-two {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+}
+
+.education {
+  margin-bottom: 40px;
+}
+
+.education-list {
+}
+
+.education-item {
+  position: relative;
+  padding-left: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+}
+
+.education-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.education-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  /* transform: translateY(-50%); */
+  width: 4px;
+  height: 4px;
+  background-color: #00b068;
+  border-radius: 1px;
+}
+
+.role {
+}
+.role-list {
+}
+
+.role-item {
+  position: relative;
+  padding-left: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+}
+
+.role-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  /* transform: translateY(-50%); */
+  width: 4px;
+  height: 4px;
+  background-color: #00b068;
+  border-radius: 1px;
+}
+
+.role-item:not(:last-child) {
+  margin-bottom: 12px;
 }
