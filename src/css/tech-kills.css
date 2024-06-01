@@ -69,8 +69,20 @@
 }
 
 .skills-slider {
-  animation: 10000ms slide linear infinite;
+  animation: 30000ms slide linear infinite;
   display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-slider {
+    animation-duration: 25000ms;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .skills-slider {
+    animation-duration: 15000ms;
+  }
 }
 
 .skill-item {
