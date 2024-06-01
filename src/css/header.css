@@ -81,7 +81,6 @@ html {
 
 .close-modal {
   display: none;
-  font-size: 40px;
 }
 
 .modal-header {
@@ -113,6 +112,8 @@ html {
   position: relative;
   text-align: center;
   height: 100%;
+  width: 100%;
+  margin-bottom: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
