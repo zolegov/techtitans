@@ -11,7 +11,7 @@ addEventListener('load', async () => {
   } catch (error) {
     const errorContainer = `
             <div class="errorContainer">
-                <h3 class="not-found-title">Not Found...</h3>
+                <h3 class="not-found-title">Oops, something went wrong...😱</h3>
             </div>
           `;
     listContainerEl.innerHTML = errorContainer;
