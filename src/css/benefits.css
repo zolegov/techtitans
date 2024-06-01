@@ -149,7 +149,6 @@
   }
 
   .benefits-header {
-    line-height: 1.1;
     letter-spacing: 1.8px;
   }
 
@@ -182,7 +181,7 @@
   }
 
   .benefits-list-item {
-    min-width: 336px;
+    min-width: 384px;
   }
 
   .benefits-list-item:nth-child(1) {
