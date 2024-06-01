@@ -24,7 +24,7 @@
 .footer-menu{
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 24px;
   margin-bottom: 40px;
 }
 .footer-menu-item-link{
@@ -57,6 +57,7 @@ text-align: left;
 }
 .footer-menu{
   flex-direction: row;
+  gap: 40px;
 }
 .footer-made-text{
 width: 352px;
@@ -67,13 +68,22 @@ text-align: left;
 @media screen and (min-width: 1280px){
   .footer-main-text{
     width: 300px;
+    margin-bottom: 0;
   }
+  .footer-container{
+    padding-bottom: 0;
+  }
+  .footer-menu{
+    margin-bottom: 0;
+  }
+
 
 
     .test{
       display: flex;
-      align-items: baseline;
+      align-items: center;
       justify-content: space-between;
+      margin-bottom: 40px;
     }
 
 }
