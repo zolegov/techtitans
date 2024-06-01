@@ -55,7 +55,7 @@
   color: black;
 }
 
-.contacts-item-text:focus {
+.contacts-item-text:hover {
   color: #00b068;
 }
 
@@ -110,7 +110,7 @@
   cursor: pointer;
 }
 
-.form-button:focus {
+.form-button:hover {
   background: #009156;
 }
 
