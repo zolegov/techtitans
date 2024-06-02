@@ -1,10 +1,9 @@
 .about-me-section {
-  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
   padding-bottom: 80px;
 }
 
-.container {
-}
 .about-me {
 }
 
@@ -128,4 +127,132 @@
 
 .role-item:not(:last-child) {
   margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+  .about-me-section {
+    max-width: 768px;
+    padding-bottom: 124px;
+    padding-top: 0;
+  }
+
+  .about-title {
+    font-family: 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 108px;
+    line-height: 1.14815;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #292929;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .about-me {
+    background-image: url(../img/about-me/decor-1x-tab.png);
+    background-repeat: no-repeat;
+    background-position: left 393px top 850px;
+    background-size: 336px 252px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .about-me {
+      background-image: url(../img/about-me/decor-2x-tab.png);
+    }
+  }
+
+  .about-title-second {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.33333;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #292929;
+    margin-bottom: 32px;
+  }
+
+  .bio-part-one {
+    margin-bottom: 24px;
+  }
+
+  .part-img-bio {
+    display: flex;
+    gap: 32px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .about-img {
+    margin-top: 368px;
+    margin-bottom: 0;
+  }
+
+  .part-education-role {
+    display: flex;
+    gap: 32px;
+  }
+
+  .bio {
+    max-width: 336px;
+    margin-bottom: 0;
+  }
+
+  .education {
+    max-width: 336px;
+    margin-bottom: 0;
+  }
+
+  .role {
+    max-width: 336px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about-me-section {
+    max-width: 1280px;
+    padding-bottom: 164px;
+    padding-top: 0;
+  }
+
+  .about-me {
+    background-image: url(../img/about-me/decor-1x-desk.png);
+    background-repeat: no-repeat;
+    background-position: left 812px top 692px;
+    background-size: 384px 288px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .about-me {
+      background-image: url(../img/about-me/decor-2x-desk.png);
+    }
+  }
+
+  .about-img {
+    margin-top: 272px;
+    margin-left: 208px;
+  }
+
+  .part-img-bio {
+    display: flex;
+    gap: 136px;
+    margin-top: 40px;
+    margin-bottom: 85px;
+  }
+
+  .bio {
+    max-width: 488px;
+  }
+
+  .part-education-role {
+    margin-left: 208px;
+    gap: 136px;
+  }
+
+  .education {
+    max-width: 384px;
+  }
 }

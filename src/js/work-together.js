@@ -56,6 +56,8 @@ document.querySelector('.input-text').addEventListener('blur', () => {
 
 
 const formAll = document.querySelector('.work-together-input');
+formAll.addEventListener('submit', async event => {
+  event.preventDefault();
 formAll.addEventListener('submit', async (event) => {
     event.preventDefault();
 

@@ -23,7 +23,7 @@
 .reviews-list {
   display: flex;
   /* flex-wrap: wrap; */
-  overflow: hidden;
+  /* overflow: hidden; */
   /* gap: 32px; */
 }
 .reviews-list-item {
@@ -55,6 +55,7 @@
   gap: 0px;
   border-radius: 24px;
 }
+
 .reviews-second-title {
   font-family: Poppins;
   font-size: 16px;
@@ -68,26 +69,42 @@
   display: flex;
   justify-content: right;
   gap: 16px;
-  padding-top: 24px;
+  margin-top: 24px;
 }
-.reviews-btn-left {
-  gap: 10px;
-  border-radius: 8px;
-  border: 1px;
-  opacity: 0px;
-  angle: -180 deg;
+#reviews
+  div.container
+  div.list-conteiner
+  div.swiper.mySwiper
+  .btn-conteiner
+  .reviews-btn-left.swiper-button-prev {
+  display: flex;
+  align-items: center;
 
-  border: 1px solid #2929291a;
-  background-color: #fff;
-}
-.reviews-btn-right {
+  padding: 12px;
   gap: 10px;
   border-radius: 8px;
-  border: 1px;
-  opacity: 0px;
 
   border: 1px solid #2929294d;
   background-color: #fff;
+}
+.reviews-btn-right {
+  display: flex;
+  align-items: center;
+
+  padding: 12px;
+  gap: 10px;
+  border-radius: 8px;
+
+  border: 1px solid #2929294d;
+  background-color: #fff;
+}
+
+.reviews-icon {
+  fill: transparent;
+  stroke: #292929;
+  width: 24px;
+  height: 24px;
+  /* flex-shrink: 0; */
 }
 
 .errorContainer {

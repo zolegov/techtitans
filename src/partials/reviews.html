@@ -1,23 +1,25 @@
 <section class="reviews" id="reviews">
   <div class="container">
-    <!-- <div class="reviews-title-container">  -->
     <h2 class="reviews-title">REVIEWS</h2>
     <div class="list-conteiner">
-      <ul class="reviews-list"></ul>
-      <div class="btn-conteiner">
-        <button type="" class="reviews-btn-left">
-          <svg class="reviews-icon" width="40" height="40">
-            <use href="./img/svg/sprite.svg#icon-arrow-left"></use>
-          </svg>
-        </button>
-        <button type="" class="reviews-btn-right">
-          <svg class="reviews-icon" width="40" height="40">
-            <use href="./img/svg/sprite.svg#icon-arrow-right"></use>
-          </svg>
-        </button>
+      <!-- <ul class="reviews-list"></ul> -->
+      <div class="swiper mySwiper">
+        <ul class="reviews-list swiper-wrapper"></ul>
+
+        <div class="btn-conteiner">
+          <button type="button" class="reviews-btn-left swiper-button-prev">
+            <svg class="reviews-icon" width="40" height="40">
+              <use href="./img/svg/sprite.svg#icon-arrow-left"></use>
+            </svg>
+          </button>
+          <button type="button" class="reviews-btn-right swiper-button-next">
+            <svg class="reviews-icon" width="40" height="40">
+              <use href="./img/svg/sprite.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
-    <!-- </div> -->
   </div>
 </section>
 <script type="module" src="./js/reviews.js"></script>
