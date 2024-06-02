@@ -31,7 +31,7 @@ addEventListener('load', async () => {
       transitionIn: 'bounceInDown',
       transitionOut: 'fadeOutUp',
       theme: 'dark',
-      timeout: 50000,
+      timeout: 5000,
       closeOnClick: true,
     });
   }
