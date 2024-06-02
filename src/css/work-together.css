@@ -324,7 +324,7 @@
   .separator {
     margin-top: 164px;
   }
-  .modal svg {
+  .modal .modal-close-btn {
     top: 26px;
     right: 26px;
   }
