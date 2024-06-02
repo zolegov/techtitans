@@ -72,6 +72,10 @@
     padding-top: 0;
   }
 
+  .benefit-header-title {
+    margin-bottom: 8px;
+  }
+
   .benefits-wrap {
     max-width: 768px;
     padding: 0;
@@ -83,6 +87,10 @@
     letter-spacing: 1.8px;
     max-width: 704px;
     margin: 0;
+  }
+
+  .benefit-icon {
+    margin-bottom: 9px;
   }
 
   .benefits-grid {
@@ -100,11 +108,15 @@
     gap: 32px;
   }
 
+  .benefits-list-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
   .benefit-title {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    margin: 0;
+    margin: 0 0 16px 0;
   }
 
   .benefits-list-item {
