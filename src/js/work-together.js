@@ -98,3 +98,5 @@ function validateEmail(email) {
   console.log(email);
   return validNO.test(email);
 }
+
+// console.log();
