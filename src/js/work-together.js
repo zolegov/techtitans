@@ -10,7 +10,7 @@ const instance = basicLightbox.create(`
     <div class="modal js-modal-window">
     <button class="modal-close-btn">
         <svg class="modal-img">
-            <use href="../img/svg/sprite.svg#icon-cross"></use>
+            <use href="./img/svg/sprite.svg#icon-cross"></use>
         </svg>
     </button>
         <div class="text-content-modal">
