@@ -5,6 +5,11 @@ import { renderReviews } from './renderReviews';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
+// import Swiper bundle with all modules installed
+import Swiper from 'swiper/bundle';
+// import styles bundle
+import 'swiper/css/bundle';
+
 export const reviewsListEl = document.querySelector('.reviews-list');
 const listContainerEl = document.querySelector('.list-conteiner');
 
@@ -32,4 +37,17 @@ addEventListener('load', async () => {
       closeOnClick: true,
     });
   }
+});
+
+const swiper = new Swiper('.mySwiper', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    1280: {
+      slidesPerView: 2,
+    },
+  },
 });

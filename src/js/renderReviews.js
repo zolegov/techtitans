@@ -1,11 +1,12 @@
-import { reviewsListEl } from './reviews';
+// import { reviewsListEl } from './reviews';
+const reviewsListEl = document.querySelector('.swiper-wrapper');
 
 //render reviews
 export async function renderReviews(reviews) {
   const markup = reviews
     .map(({ author, avatar_url, review }) => {
       return `        
-    <li class="reviews-list-item">
+    <li class="reviews-list-item swiper-slide">
           <p class="reviews-item">
             ${review}
           </p>

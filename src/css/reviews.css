@@ -23,7 +23,7 @@
 .reviews-list {
   display: flex;
   /* flex-wrap: wrap; */
-  overflow: hidden;
+  /* overflow: hidden; */
   /* gap: 32px; */
 }
 .reviews-list-item {
@@ -71,7 +71,12 @@
   gap: 16px;
   margin-top: 24px;
 }
-.reviews-btn-left {
+#reviews
+  div.container
+  div.list-conteiner
+  div.swiper.mySwiper
+  .btn-conteiner
+  .reviews-btn-left.swiper-button-prev {
   display: flex;
   align-items: center;
 
