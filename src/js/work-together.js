@@ -3,10 +3,6 @@ import SimpleLightbox from 'simplelightbox';
 
 const BASE_URL = 'https://portfolio-js.b.goit.study/api';
 
-async function postRequests() {
-  const response = await axios.post(`${BASE_URL}/requests`);
-    return response.data;
-}
 
 const formAll = document.querySelector('.work-together-input');
    formAll.addEventListener('submit', async (event) => {
@@ -14,12 +10,12 @@ const formAll = document.querySelector('.work-together-input');
 
     const form = event.target;
     const email = form.querySelector('input[name="user-email"]').value.trim();
-    const comments = form.querySelector('textarea[name="comments"]').value.trim();
+    const comment = form.querySelector('textarea[name="comments"]').value.trim();
 
     try {
         const response = await axios.post(`${BASE_URL}/requests`, {
             email,
-            comments
+            comment
         });
         console.log(response)
         if (response.status === 201) {
