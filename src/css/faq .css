@@ -182,7 +182,8 @@
 }
 .ac .ac-panel .ac-text {
   font: 15px/24px 'Arial', sans-serif;
-  color: #111;
+  /* color: #111; */
+  color: red;
   padding: 8px;
   margin: 0;
 }
