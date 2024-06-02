@@ -1,28 +1,31 @@
 <section class="about-me-section" id="about-me">
   <div class="container about-me">
     <h2 class="about-title">ABOUT <span class="title-span">ME</span></h2>
-    <picture>
-      <source
-        srcset="./img/about-me/about-desk.png, ./img/about-me/about-desk-2x.png"
-        media="(min-width: 1280px)"
-      />
-      <source
-        srcset="./img/about-me/about-tab.png, ./img/about-me/about-tab-2x.png"
-        media="(min-width: 768px)"
-      />
-      <source
-        srcset="./img/about-me/about-mob.png, ./img/about-me/about-mob-2x.png"
-        media="(min-width: 320px)"
-      />
-      <img
-        class="about-img"
-        src="./img/about-me/about-desk-2x.png"
-        width="384"
-        height="448"
-        alt="My photo"
-      />
-    </picture>
-    <div class="about-discription">
+    <div class="part-img-bio">
+      <picture>
+        <source
+          srcset="
+            ./img/about-me/about-desk.png,
+            ./img/about-me/about-desk-2x.png
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="./img/about-me/about-tab.png, ./img/about-me/about-tab-2x.png"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./img/about-me/about-mob.png, ./img/about-me/about-mob-2x.png"
+          media="(min-width: 320px)"
+        />
+        <img
+          class="about-img"
+          src="./img/about-me/about-desk-2x.png"
+          width="384"
+          height="448"
+          alt="My photo"
+        />
+      </picture>
       <div class="bio">
         <h3 class="about-title-second">BIO</h3>
         <p class="bio-part-one">
@@ -43,6 +46,8 @@
           current with the latest innovations in the field.
         </p>
       </div>
+    </div>
+    <div class="part-education-role">
       <div class="education">
         <h3 class="about-title-second">EDUCATION</h3>
         <ul class="education-list">
