@@ -19,7 +19,7 @@
   color: #00b068;
 }
 .my-projects-list {
-  margin-bottom: 52px;
+  margin-bottom: 22px;
 }
 
 .my-projects-item {
@@ -28,9 +28,6 @@
   &.is-hidden {
     display: none;
   }
-}
-.my-projects-list li:last-child {
-  margin-bottom: 0;
 }
 
 .my-project-text {
@@ -126,7 +123,7 @@
   }
 
   .my-projects-list {
-    margin-bottom: 70px;
+    margin-bottom: 12px;
   }
 
   .my-projects-item {
@@ -179,7 +176,6 @@
   }
 
   .my-projects-list {
-    margin-bottom: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,6 +183,11 @@
 
   .my-projects-item {
     margin-bottom: 80px;
+  }
+
+  .my-project-img {
+    border-radius: 24px;
+    min-width: 1008px;
   }
 
   .my-projects-wrap {

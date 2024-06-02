@@ -29,7 +29,7 @@
 }
 
 .benefit-icon {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .benefit-title {
@@ -37,7 +37,7 @@
   color: rgb(41, 41, 41);
   font-size: 18px;
   line-height: 1.55;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -50,11 +50,12 @@
 
 .benefits-list-item {
   max-width: 320px;
+  margin-bottom: 32px;
 }
 
-.benefits-list-item:not(:last-child) {
+/* .benefits-list-item:not(:last-child) {
   margin-bottom: 16px;
-}
+} */
 
 .benefit-paragraph {
   font-family: 'Poppins';
@@ -72,6 +73,10 @@
     padding-top: 0;
   }
 
+  .benefit-header-title {
+    margin-bottom: 8px;
+  }
+
   .benefits-wrap {
     max-width: 768px;
     padding: 0;
@@ -85,6 +90,10 @@
     margin: 0;
   }
 
+  .benefit-icon {
+    margin-bottom: 9px;
+  }
+
   .benefits-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -93,15 +102,22 @@
   }
 
   .benefits-list {
+    position: relative;
+    bottom: 25px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 32px;
+    gap: 32px;
+  }
+
+  .benefits-list-item:not(:last-child) {
+    margin-bottom: 0;
   }
 
   .benefit-title {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    margin: 0 0 16px 0;
   }
 
   .benefits-list-item {
@@ -132,7 +148,7 @@
 @media (min-width: 1280px) {
   .benefits-section {
     max-width: 1280px;
-    padding-bottom: 164px;
+    padding-bottom: 32px;
     padding-top: 0;
   }
 
@@ -142,21 +158,24 @@
     position: relative;
   }
 
-  .benefit-title {
+  .benefit-header-title {
     display: flex;
     align-items: end;
     grid-area: head-img;
   }
 
   .benefits-header {
-    line-height: 1.1;
     letter-spacing: 1.8px;
+  }
+
+  .benefit-title {
+    letter-spacing: 0.03em;
   }
 
   .desktop-background {
     position: absolute;
-    bottom: 70%;
-    left: 57%;
+    bottom: 67%;
+    left: 58%;
     max-width: 526px;
     min-height: 408px;
     display: block;
@@ -171,7 +190,6 @@
   }
 
   .benefits-list {
-    position: relative;
     bottom: 23%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -182,7 +200,7 @@
   }
 
   .benefits-list-item {
-    min-width: 336px;
+    min-width: 384px;
   }
 
   .benefits-list-item:nth-child(1) {

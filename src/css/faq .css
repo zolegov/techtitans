@@ -121,6 +121,9 @@
     display: block;
     margin-top: auto;
   }
+  .faq {
+    padding-bottom: 164px;
+  }
 }
 /* ******************************** */
 /* @charset "UTF-8"; */
