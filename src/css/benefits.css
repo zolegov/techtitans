@@ -29,7 +29,7 @@
 }
 
 .benefit-icon {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .benefit-title {
@@ -37,7 +37,7 @@
   color: rgb(41, 41, 41);
   font-size: 18px;
   line-height: 1.55;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -50,11 +50,12 @@
 
 .benefits-list-item {
   max-width: 320px;
+  margin-bottom: 32px;
 }
 
-.benefits-list-item:not(:last-child) {
+/* .benefits-list-item:not(:last-child) {
   margin-bottom: 16px;
-}
+} */
 
 .benefit-paragraph {
   font-family: 'Poppins';
@@ -147,7 +148,7 @@
 @media (min-width: 1280px) {
   .benefits-section {
     max-width: 1280px;
-    padding-bottom: 164px;
+    padding-bottom: 32px;
     padding-top: 0;
   }
 
@@ -167,10 +168,14 @@
     letter-spacing: 1.8px;
   }
 
+  .benefit-title {
+    letter-spacing: 0.03em;
+  }
+
   .desktop-background {
     position: absolute;
-    bottom: 70%;
-    left: 57%;
+    bottom: 67%;
+    left: 58%;
     max-width: 526px;
     min-height: 408px;
     display: block;
