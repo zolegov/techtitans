@@ -35,7 +35,7 @@ function openModal() {
     </div>
   `;
 
-   const lightbox = new SimpleLightbox();
+   const lightbox = new SimpleLightbox(openModal);
   lightbox.open({
     content: modalContent,
     sourceAttr: 'src',
