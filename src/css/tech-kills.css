@@ -44,7 +44,7 @@
 
 .tech-skills-slider {
   overflow: hidden;
-  min-height: 230px;
+  min-height: 245px;
 }
 @media screen and (min-width: 768px) {
   .tech-skills-slider {
