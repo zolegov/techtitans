@@ -136,10 +136,18 @@
   stroke: #000;
   width: 24px;
   height: 24px;
+  cursor: pointer;
+}
+
+.modal-close-btn {
+  width: 24px;
+  height: 24px;
   position: absolute;
   top: 16px;
   right: 16px;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
 .text-content-modal {
