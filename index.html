@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/techtitans/assets/favicon-c79c9faf.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link href="./fonts/impact.woff" rel="stylesheet" type="text/css" /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    
+    <script type="module" crossorigin src="/techtitans/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/techtitans/assets/vendor-fc5788e3.js">
+    <link rel="stylesheet" href="/techtitans/assets/vendor-101db5e5.css">
+    <link rel="stylesheet" href="/techtitans/assets/index-9b4aa28b.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+  <div class="header-container container">
+    <a class="logo" href="./index.html"
+      >Lloyd<span class="logo-green">Jefferson.</span></a
+    >
+    <button class="burger-icon" type="button">
+      <svg width="32" height="32" class="icon-color">
+        <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-burger"></use>
+      </svg>
+    </button>
+    <button class="close-modal" type="button">
+      <svg width="32" height="32" class="icon-color">
+        <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-cross"></use>
+      </svg>
+    </button>
+    <nav class="header-navigation">
+      <ul class="header-menu">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#about-me">About me</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#my-project">Projects</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#work-together">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="modal-header">
+  <div class="modal-content">
+    <nav>
+      <ul class="header-menu">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#about-me">About me</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#my-project">Projects</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#work-together">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+    <main>
+      <section class="hero" id="hero">
+  <div class="container hero-container">
+    <div class="hero-container-bg">
+      <div class="hero-title-wrap">
+        <h1 class="hero-title">Hello, I am<br><span class="hero-title-green">Fullstack developer</span></h1>
+        <picture>
+          <source srcset="/techtitans/assets/hero-desk-44012729.webp 1x, /techtitans/assets/hero-desk-2x-cec0b7aa.webp 2x" media="(min-width: 1280px)" type="image/webp"/>
+          <source srcset="/techtitans/assets/hero-desk-9b7eebf9.png 1x, /techtitans/assets/hero-desk-2x-2aa1e402.png 2x" media="(min-width: 1280px)" type="image/png"/>
+          <img src="/techtitans/assets/hero-desk-9b7eebf9.png" alt="Photo of the developer" class="hero-img" width="592" height="444"/>
+        </picture>
+      </div>
+      <div class="hero-info-wrap">
+        <a class="hero-link" href="#work-together">
+          <div class="hero-space-link">
+            <svg class="hero-icon-arrow">
+              <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-order"></use>
+            </svg>
+            Order the project
+          <div class="hero-decor-rectangle"></div>
+        </div>
+        </a>
+        
+        <p class="hero-info">I work with people all over the world to create <span class="hero-info-greeen">impressive</span> and <span class="hero-info-greeen">functional websites</span> that reflect each client's unique personality. </p>
+      </div>
+    </div>
+  </div>
+  <div class="hero-soc-list-wrap">
+    <ul class="hero-soc-list">
+      <li class="hero-soc-item">
+        <a class="hero-soc-link" href="https://www.instagram.com/goitclub/" target="blank">Instagram</a>
+      </li>
+      <li class="hero-soc-item">
+        <a class="hero-soc-link" href="https://www.facebook.com/goITclub/" target="blank">Facebook</a>
+      </li>
+      <li class="hero-soc-item">
+        <a class="hero-soc-link" href="https://www.linkedin.com/school/goit-start-your-career-in-it" target="blank">Linkedin</a>
+      </li>
+      <li class="hero-soc-item">
+        <a class="hero-soc-link" href="https://github.com/zolegov/techtitans" target="blank">GitHub</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="about-me-section" id="about-me">
+  <div class="container about-me">
+    <h2 class="about-title">ABOUT <span class="title-span">ME</span></h2>
+    <div class="part-img-bio">
+      <picture>
+        <source
+          srcset="/techtitans/assets/about-desk-8501ea85.png , /techtitans/assets/about-desk-2x-643972b7.png "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/techtitans/assets/about-tab-a6399ad2.png , /techtitans/assets/about-tab-2x-9d9e7baf.png "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/techtitans/assets/about-mob-1043412b.png , /techtitans/assets/about-mob-2x-07350817.png "
+          media="(min-width: 320px)"
+        />
+        <img
+          class="about-img"
+          src="/techtitans/assets/about-desk-2x-643972b7.png"
+          width="384"
+          height="448"
+          alt="My photo"
+        />
+      </picture>
+      <div class="bio">
+        <h3 class="about-title-second">BIO</h3>
+        <p class="bio-part-one">
+          I'm Lloyd Jefferson, a talented programmer specializing in software
+          development. My expertise spans various programming languages and
+          technologies, and I am dedicated to continually enhancing my skills. I
+          thrive on seeking unconventional and creative solutions to problems,
+          leveraging a high level of analytical skills to effectively tackle
+          even the most challenging tasks.
+        </p>
+        <p class="bio-part-two">
+          Adaptable to both independent and team-oriented work, I collaborate
+          seamlessly with colleagues, exchanging ideas and finding optimal
+          solutions. My professional maturity enables me to navigate challenges
+          and stressful situations with a calm demeanor, maintaining a
+          consistently high quality of work. Committed to self-improvement, I
+          actively engage in studying new technologies and practices to stay
+          current with the latest innovations in the field.
+        </p>
+      </div>
+    </div>
+    <div class="part-education-role">
+      <div class="education">
+        <h3 class="about-title-second">EDUCATION</h3>
+        <ul class="education-list">
+          <li class="education-item">
+            2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
+          </li>
+          <li class="education-item">
+            2019 - 2020 / Advanced Web Development Certificate, GoIT IT School,
+            New York
+          </li>
+          <li class="education-item">
+            2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+          </li>
+        </ul>
+      </div>
+      <div class="role">
+        <h3 class="about-title-second">ROLE</h3>
+        <ul class="role-list">
+          <li class="role-item">Frontend development</li>
+          <li class="role-item">HeadlessCMS, Wordpress</li>
+          <li class="role-item">Blender (enjoy)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="tech-skills">
+  <div class="container">
+    <h2 class="visually-hidden">Tech Skills</h2>
+
+    <div class="tech-skills-slider">
+      <div class="skills-slider-container">
+        <ul class="skills-slider">
+          <li class="skill-item"><p class="skill-item-text">HTML/CSS</p></li>
+          <li class="skill-item"><p class="skill-item-text">JavaScript</p></li>
+          <li class="skill-item"><p class="skill-item-text">React</p></li>
+          <li class="skill-item"><p class="skill-item-text">Node. js</p></li>
+          <li class="skill-item">
+            <p class="skill-item-text">React Native</p>
+          </li>
+          <li class="skill-item"><p class="skill-item-text">TypeScript</p></li>
+        </ul>
+        <ul class="skills-slider">
+          <li class="skill-item"><p class="skill-item-text">HTML/CSS</p></li>
+          <li class="skill-item"><p class="skill-item-text">JavaScript</p></li>
+          <li class="skill-item"><p class="skill-item-text">React</p></li>
+          <li class="skill-item"><p class="skill-item-text">Node. js</p></li>
+          <li class="skill-item">
+            <p class="skill-item-text">React Native</p>
+          </li>
+          <li class="skill-item"><p class="skill-item-text">TypeScript</p></li>
+        </ul>
+      </div>
+
+      <div class="skills-slider-container skills-slider-container-bottom">
+        <ul class="skills-slider">
+          <li class="skill-item"><p class="skill-item-text">HTML/CSS</p></li>
+          <li class="skill-item"><p class="skill-item-text">JavaScript</p></li>
+          <li class="skill-item"><p class="skill-item-text">React</p></li>
+          <li class="skill-item"><p class="skill-item-text">Node. js</p></li>
+          <li class="skill-item">
+            <p class="skill-item-text">React Native</p>
+          </li>
+          <li class="skill-item"><p class="skill-item-text">TypeScript</p></li>
+        </ul>
+        <ul class="skills-slider">
+          <li class="skill-item"><p class="skill-item-text">HTML/CSS</p></li>
+          <li class="skill-item"><p class="skill-item-text">JavaScript</p></li>
+          <li class="skill-item"><p class="skill-item-text">React</p></li>
+          <li class="skill-item"><p class="skill-item-text">Node. js</p></li>
+          <li class="skill-item">
+            <p class="skill-item-text">React Native</p>
+          </li>
+          <li class="skill-item"><p class="skill-item-text">TypeScript</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section id="my-project" class="section-projects">
+  <div class="container">
+    <h2 class="my-projects-title">my <span>projects</span></h2>
+    <ul class="my-projects-list">
+      <li class="my-projects-item">
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcset="/techtitans/assets/wallet-mob-6962e541.webp 1x, /techtitans/assets/wallet-mob-2x-ccade9dc.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/techtitans/assets/wallet-mob-bbf19d53.png 1x, /techtitans/assets/wallet-mob-2x-2c915dc8.png 2x"
+            type="image/png"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1279px)"
+            srcset="/techtitans/assets/wallet-tab-241dc5a3.webp 1x, /techtitans/assets/wallet-tab-2x-3df3a488.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1279px)"
+            srcset="/techtitans/assets/wallet-tab-912734e9.png 1x, /techtitans/assets/wallet-tab-2x-4deadf0f.png 2x"
+            type="image/png"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/techtitans/assets/wallet-pc-c88d912a.webp 1x, /techtitans/assets/wallet-pc-2x-3f01b290.webp 2x"
+            type="image/webp"
+          />
+
+          <source
+            media="(min-width: 1280px)"
+            srcset="/techtitans/assets/wallet-pc-bb8a2c0f.png 1x, /techtitans/assets/wallet-pc-2x-790e49b0.png 2x"
+            type="image/png"
+          />
+          <img src="/techtitans/assets/wallet-mob-bbf19d53.png" alt="Wallet webservice" />
+        </picture>
+        <p class="my-project-text">React, JavaScript, Node JS, Git</p>
+        <div class="my-projects-wrap">
+          <div class="my-projects-subtitle-wrap">
+            <h3 class="my-projects-subtitle">Wallet webservice</h3>
+          </div>
+          <div class="my-project-link-wrap">
+            <a
+              class="my-project-link"
+              href="https://github.com/zolegov/techtitans"
+              target="_blank"
+              >VISIT
+              <svg width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-visit"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="my-projects-item">
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcset="/techtitans/assets/green-harvest-mob-2dcd5f22.webp 1x, /techtitans/assets/green-harvest-mob-2x-952c85c8.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/techtitans/assets/green-harvest-mob-d6b9b952.png 1x, /techtitans/assets/green-harvest-mob-2x-c1a8be81.png 2x"
+            type="image/png"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1279px)"
+            srcset="/techtitans/assets/green-harvest-tab-ae95a2d4.webp 1x, /techtitans/assets/green-harvest-tab-2x-bfd3ac30.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1279px)"
+            srcset="/techtitans/assets/green-harvest-tab-fb185956.png 1x, /techtitans/assets/green-harvest-tab-2x-d19ee6fa.png 2x"
+            type="image/png"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/techtitans/assets/green-harvest-pc-4d2f8de8.webp 1x, /techtitans/assets/green-harvest-pc-2x-b5c35894.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/techtitans/assets/green-harvest-pc-f950cef9.png 1x, /techtitans/assets/green-harvest-pc-2x-570ae9b1.png 2x"
+            type="image/png"
+          />
+          <img
+            src="/techtitans/assets/green-harvest-mob-d6b9b952.png"
+            alt="Green harvest webservice"
+          />
+        </picture>
+        <p class="my-project-text">React, JavaScript, Node JS, Git</p>
+        <div class="my-projects-wrap">
+          <div class="my-projects-subtitle-wrap">
+            <h3 class="my-projects-subtitle">Green harvest webservice</h3>
+          </div>
+          <div class="my-project-link-wrap">
+            <a
+              class="my-project-link"
+              href="https://github.com/zolegov/techtitans"
+              target="_blank"
+              >VISIT
+              <svg width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-visit"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="my-projects-item">
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcset="/techtitans/assets/english-mob-fb326c4b.webp 1x, /techtitans/assets/english-mob-2x-bdc8b1c4.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/techtitans/assets/english-mob-428a896a.png 1x, /techtitans/assets/english-mob-2x-597046a0.png 2x"
+            type="image/png"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1279px)"
+            srcset="/techtitans/assets/english-tab-a222d687.webp 1x, /techtitans/assets/english-tab-2x-4147acd5.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1279px)"
+            srcset="/techtitans/assets/english-tab-a5bcc891.png 1x, /techtitans/assets/english-tab-2x-31111ce4.png 2x"
+            type="image/png"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/techtitans/assets/english-pc-6832a465.webp 1x, /techtitans/assets/english-pc-2x-f1777c44.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/techtitans/assets/english-pc-8adb3bcc.png 1x, /techtitans/assets/english-pc-2x-9253a8bd.png 2x"
+            type="image/png"
+          />
+          <img
+            src="/techtitans/assets/english-mob-428a896a.png"
+            alt="English Exellence webservice"
+          />
+        </picture>
+        <p class="my-project-text">React, JavaScript, Node JS, Git</p>
+        <div class="my-projects-wrap">
+          <div class="my-projects-subtitle-wrap">
+            <h3 class="my-projects-subtitle">English Exellence webservice</h3>
+          </div>
+          <div class="my-project-link-wrap">
+            <a
+              class="my-project-link"
+              href="https://github.com/zolegov/techtitans"
+              target="_blank"
+              >VISIT
+              <svg width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-visit"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="my-projects-item is-hidden">
+        <picture>
+          <source
+            srcset="/techtitans/assets/power-pulse-2a4c46bb.webp 1x, /techtitans/assets/power-pulse-2x-bb4e22cb.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/techtitans/assets/power-pulse-1619eace.png 1x, /techtitans/assets/power-pulse-2x-075cb3dc.png "
+            type="image/png"
+          />
+          <img
+            class="my-project-img"
+            src="/techtitans/assets/power-pulse-1619eace.png"
+            alt="power pulse webservice"
+          />
+        </picture>
+        <p class="my-project-text">React, JavaScript, Node JS, Git</p>
+        <div class="my-projects-wrap">
+          <div class="my-projects-subtitle-wrap">
+            <h3 class="my-projects-subtitle">power pulse webservice</h3>
+          </div>
+          <div class="my-project-link-wrap">
+            <a
+              class="my-project-link"
+              href="https://github.com/zolegov/techtitans"
+              target="_blank"
+              >VISIT
+              <svg width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-visit"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="my-projects-item is-hidden">
+        <picture>
+          <source
+            srcset="/techtitans/assets/mimino-6a76ecd8.webp 1x, /techtitans/assets/mimino-2x-7d225c2c.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/techtitans/assets/mimino-6f99d8f8.png , /techtitans/assets/mimino-2x-970ded53.png "
+            type="image/png"
+          />
+          <img
+            class="my-project-img"
+            src="/techtitans/assets/mimino-6f99d8f8.png"
+            alt="mimino website"
+          />
+        </picture>
+        <p class="my-project-text">React, JavaScript, Node JS, Git</p>
+        <div class="my-projects-wrap">
+          <div class="my-projects-subtitle-wrap">
+            <h3 class="my-projects-subtitle">mimino website</h3>
+          </div>
+          <div class="my-project-link-wrap">
+            <a
+              class="my-project-link"
+              href="https://github.com/zolegov/techtitans"
+              target="_blank"
+              >VISIT
+              <svg width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-visit"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="my-projects-item is-hidden">
+        <picture>
+          <source
+            srcset="/techtitans/assets/vyshyvanka-de7076d0.webp 1x, /techtitans/assets/vyshyvanka-2x-6eea22f4.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/techtitans/assets/vyshyvanka-5420ec00.png 1x, /techtitans/assets/vyshyvanka-2x-e4d01ecf.png 2x"
+            type="image/png"
+          />
+          <img
+            class="my-project-img"
+            src="/techtitans/assets/vyshyvanka-5420ec00.png"
+            alt="vyshyvanka vibes Landing Page"
+          />
+        </picture>
+        <p class="my-project-text">React, JavaScript, Node JS, Git</p>
+        <div class="my-projects-wrap">
+          <div class="my-projects-subtitle-wrap">
+            <h3 class="my-projects-subtitle">vyshyvanka vibes Landing Page</h3>
+          </div>
+          <div class="my-project-link-wrap">
+            <a
+              class="my-project-link"
+              href="https://github.com/zolegov/techtitans"
+              target="_blank"
+              >VISIT
+              <svg width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-visit"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="my-projects-item is-hidden">
+        <picture>
+          <source
+            srcset="/techtitans/assets/chego-ce565d78.webp 1x, /techtitans/assets/chego-2x-82719831.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/techtitans/assets/chego-939777f1.png 1x, /techtitans/assets/chego-2x-34a93aff.png "
+            type="image/png"
+          />
+          <img
+            class="my-project-img"
+            src="/techtitans/assets/chego-939777f1.png"
+            alt="chego jewelry website"
+          />
+        </picture>
+        <p class="my-project-text">React, JavaScript, Node JS, Git</p>
+        <div class="my-projects-wrap">
+          <div class="my-projects-subtitle-wrap">
+            <h3 class="my-projects-subtitle">chego jewelry website</h3>
+          </div>
+          <div class="my-project-link-wrap">
+            <a
+              class="my-project-link"
+              href="https://github.com/zolegov/techtitans"
+              target="_blank"
+              >VISIT
+              <svg width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-visit"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="my-projects-item is-hidden">
+        <picture>
+          <source
+            srcset="/techtitans/assets/energy-flow-00d6caf4.webp 1x, /techtitans/assets/energy-flow-2x-1a9bbd8e.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/techtitans/assets/energy-flow-0dc241e6.png 1x, /techtitans/assets/energy-flow-2x-f9f0b2c9.png 2x"
+            type="image/png"
+          />
+          <img
+            class="my-project-img"
+            src="/techtitans/assets/energy-flow-0dc241e6.png"
+            alt="energy flow webservice "
+          />
+        </picture>
+        <p class="my-project-text">React, JavaScript, Node JS, Git</p>
+        <div class="my-projects-wrap">
+          <div class="my-projects-subtitle-wrap">
+            <h3 class="my-projects-subtitle">energy flow webservice</h3>
+          </div>
+          <div class="my-project-link-wrap">
+            <a
+              class="my-project-link"
+              href="https://github.com/zolegov/techtitans"
+              target="_blank"
+              >VISIT
+              <svg width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-visit"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="my-projects-item is-hidden">
+        <picture>
+          <source
+            srcset="/techtitans/assets/fruitbox-2b0891ce.webp 1x, /techtitans/assets/fruitbox-2x-69df88f3.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/techtitans/assets/fruitbox-a97644cf.png 1x, /techtitans/assets/fruitbox-2x-86406076.png 2x"
+            type="image/png"
+          />
+          <img
+            class="my-project-img"
+            src="/techtitans/assets/fruitbox-a97644cf.png"
+            alt="fruitbox online store"
+          />
+        </picture>
+        <p class="my-project-text">React, JavaScript, Node JS, Git</p>
+        <div class="my-projects-wrap">
+          <div class="my-projects-subtitle-wrap">
+            <h3 class="my-projects-subtitle">fruitbox online store</h3>
+          </div>
+          <div class="my-project-link-wrap">
+            <a
+              class="my-project-link"
+              href="https://github.com/zolegov/techtitans"
+              target="_blank"
+              >VISIT
+              <svg width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-visit"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="my-projects-item is-hidden">
+        <picture>
+          <source
+            srcset="/techtitans/assets/starlight-c8388d65.webp 1x, /techtitans/assets/starlight-2x-d5b55830.webp "
+            type="image/webp"
+          />
+          <source
+            srcset="/techtitans/assets/starlight-22f8fe13.png 1x, /techtitans/assets/starlight-2x-27385f6e.png 2x"
+            type="image/png"
+          />
+          <img
+            class="my-project-img"
+            src="/techtitans/assets/starlight-22f8fe13.png"
+            alt="starlight studio landing page"
+          />
+        </picture>
+        <p class="my-project-text">React, JavaScript, Node JS, Git</p>
+        <div class="my-projects-wrap">
+          <div class="my-projects-subtitle-wrap">
+            <h3 class="my-projects-subtitle">starlight studio landing page</h3>
+          </div>
+          <div class="my-project-link-wrap">
+            <a
+              class="my-project-link"
+              href="https://github.com/zolegov/techtitans"
+              target="_blank"
+              >VISIT
+              <svg width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-visit"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <button class="my-project-btn" type="button">LOAD MORE</button>
+  </div>
+</section>
+
+
+      <section class="benefits-section">
+  <div class="container">
+    <div class="benefits-wrap">
+      <div class="benefits-grid">
+        <div class="benefit-header-title">
+          <h2 class="benefits-header">
+            <span class="green-word">Benefits</span> of working with me
+          </h2>
+          <picture>
+            <source srcset="/techtitans/assets/decor-bg-4-cb383242.webp 1x, /techtitans/assets/decor-bg-4-2x-9c9e241b.webp 2x"
+              media="(min-width: 1280px)">
+            <img class="desktop-background" src="/techtitans/assets/decor-bg-4-cb383242.webp" alt="background" width="526">
+          </picture>
+        </div>
+        <ul class="benefits-list">
+          <li class="benefits-list-item">
+            <svg class="benefit-icon" width="48" height="48">
+              <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-featured-1"></use>
+            </svg>
+            <h3 class="benefit-title">Expertise</h3>
+            <p class="benefit-paragraph">
+              With extensive experience in development, I have a deep
+              understanding of programming and website development.
+            </p>
+
+          </li>
+          <li class="benefits-list-item">
+            <svg class="benefit-icon" width="48" height="48">
+              <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-featured-2"></use>
+            </svg>
+            <h3 class="benefit-title">Communication</h3>
+            <p class="benefit-paragraph">
+              Understanding your needs and wants is my priority and I am always
+              available for discussions and open to corrections.
+            </p>
+          </li>
+          <li class="benefits-list-item">
+            <svg class="benefit-icon" width="48" height="48">
+              <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-featured-3"></use>
+            </svg>
+            <h3 class="benefit-title">Art</h3>
+            <p class="benefit-paragraph">
+              Thanks to my creative nature, I am ready to accept challenges and
+              help you bring your ideas to life.
+            </p>
+          </li>
+          <li class="benefits-list-item">
+
+            <svg class="benefit-icon" width="48" height="48">
+              <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-featured-4"></use>
+            </svg>
+            <h3 class="benefit-title">Urgent execution</h3>
+            <p class="benefit-paragraph">
+              I understand how important time is to you. Ready to work quickly and
+              efficiently, without reducing the quality of work.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="faq">
+  <div class="container fac-container">
+    <div class="faq-title-bg">
+      <h2 class="faq-title">frequently asked <span>question</span></h2>
+      <picture>
+        <source
+          srcset="/techtitans/assets/faq-bg-pc-eea571f1.webp 1x, /techtitans/assets/faq-bg-pc-2x-d0713558.webp 2x"
+          type="image/webp"
+        />
+        <img src="/techtitans/assets/faq-bg-pc-eea571f1.webp" alt="faq" />
+      </picture>
+    </div>
+    <ul class="accordion-container">
+      <li class="ac is-active">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What programming languages are most often used in your project?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What are the deadlines for the project?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What payment methods do you accept?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            How can I contact you?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            Do you provide advice or support?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What does the process of developing a software product look like
+            from idea to implementation?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="reviews" id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">REVIEWS</h2>
+    <div class="list-conteiner">
+      <!-- <ul class="reviews-list"></ul> -->
+      <div class="swiper mySwiper">
+        <ul class="reviews-list swiper-wrapper"></ul>
+
+        <div class="btn-conteiner">
+          <button type="button" class="reviews-btn-left swiper-button-prev">
+            <svg class="reviews-icon" width="40" height="40">
+              <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-left"></use>
+            </svg>
+          </button>
+          <button type="button" class="reviews-btn-right swiper-button-next">
+            <svg class="reviews-icon" width="40" height="40">
+              <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <section class="work-together" id="work-together">
+  <div class="container">
+    <div class="title-picture">
+      <h2 class="work-together-title">
+        <span class="highlight">LET'S</span> WORK TOGETHER
+      </h2>
+      <picture>
+        <source
+          srcset="/techtitans/assets/decor-bg-4-cb383242.webp 1x, /techtitans/assets/decor-bg-4-2x-9c9e241b.webp 2x"
+          media="(min-width: 1280px)"
+        />
+        <img
+          class="together-picture"
+          src="/techtitans/assets/decor-bg-4-cb383242.webp"
+          alt="background"
+          width="526"
+        />
+      </picture>
+    </div>
+    <div class="contacts-form">
+      <div class="work-together-contacts">
+        <p class="work-together-contacts-title">
+          Contact me to transform your ideas into exceptional solutions.
+        </p>
+        <address class="contact">
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <svg class="contacts-img" width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-tel"></use>
+              </svg>
+              <a class="contacts-item-text" href="tel:+380904567890"
+                >+38 090 456 78 90</a
+              >
+            </li>
+            <li class="contacts-item">
+              <svg class="contacts-img" width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-mail"></use>
+              </svg>
+              <a
+                class="contacts-item-text"
+                href="mailto:lloydjefferson@gmail.com"
+                >lloydjefferson@gmail.com</a
+              >
+            </li>
+            <li class="contacts-item">
+              <svg class="contacts-img" width="24" height="24">
+                <use href="/techtitans/assets/sprite-f4ef88fc.svg#icon-geo"></use>
+              </svg>
+              <span class="contacts-item-text">USA, New York</span>
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div class="work-together-form">
+        <form class="work-together-input">
+          <input
+            type="email"
+            name="user-email"
+            placeholder="Your email*"
+            class="input-text input-with-svg"
+            pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+          />
+          <div class="error-message">
+            <p class="invalid"></p>
+          </div>
+          <textarea
+            name="comments"
+            id="comments"
+            class="textarea-text"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button type="submit" class="form-button">SEND MESSAGE</button>
+        </form>
+      </div>
+    </div>
+    <!-- <hr class="separator" /> -->
+  </div>
+</section>
+
+
+    </main>
+    <footer class="footer">
+  <div class="footer-container container">
+    <div class="test">
+      <p class="footer-main-text">
+        LLOYD<span class="footer-logo-span">JEFFERSON.</span>
+      </p>
+      <nav class="footer-nav">
+        <ul class="footer-menu">
+          <li class="footer-menu-item">
+            <a
+              class="footer-menu-item-link"
+              href="https://www.instagram.com/goitclub/  "
+              >Instagram</a
+            >
+          </li>
+          <li class="footer-menu-item">
+            <a
+              class="footer-menu-item-link"
+              href="https://www.facebook.com/goITclub/"
+              >Facebook</a
+            >
+          </li>
+          <li class="footer-menu-item">
+            <a
+              class="footer-menu-item-link"
+              href=" https://www.linkedin.com/school/goit-start-your-career-in-it "
+              >Linkedin</a
+            >
+          </li>
+          <li class="footer-menu-item">
+            <a
+              class="footer-menu-item-link"
+              href="https://github.com/zolegov/techtitans"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-made-text">© Copyright 2024. Made by LloydJefferson</p>
+  </div>
+</footer>
+
+
+    
+  </body>
+</html>
