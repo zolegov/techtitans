@@ -123,6 +123,78 @@
   margin-top: 80px;
 }
 
+.modal {
+  background: white;
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  border-radius: 16px;
+  padding: 48px 32px;
+  width: 320px;
+  height: 328px;
+}
+
+.modal svg {
+  stroke: #000;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.text-content-modal {
+  width: 256px;
+  height: 232px;
+}
+
+.modal p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: green;
+}
+
+.modal .text-modal-second {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: black;
+  text-transform: none;
+}
+
+.invalid {
+  color: red;
+}
+
+.error-message {
+  display: none;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #e74a3b;
+}
+
+.error-message.invalid {
+  background-color: red;
+  display: block;
+  width: 100%;
+  height: 20px;
+}
+
+.input-with-svg {
+  background-image: url('../img/svg/input-success.svg');
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 16px;
+}
+
 @media screen and (min-width: 768px) {
   .work-together-title {
     font-size: 108px;
@@ -185,6 +257,25 @@
   .separator {
     margin-top: 124px;
   }
+
+  .modal {
+    background: white;
+    border: 1px solid rgba(250, 250, 250, 0.1);
+    border-radius: 16px;
+    padding: 64px;
+    width: 492px;
+    height: 280px;
+  }
+
+  .text-content-modal {
+    width: 364px;
+    height: 152px;
+  }
+
+  .modal svg {
+    top: 20px;
+    right: 20px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -199,7 +290,7 @@
   }
   .work-together-contacts {
     margin-top: 0;
-    width: 50%;
+    width: 488px;
   }
 
   .work-together-contacts-title {
@@ -223,7 +314,7 @@
   }
 
   .work-together-form {
-    width: 50%;
+    width: 592px;
   }
 
   .input-text,
@@ -233,18 +324,8 @@
   .separator {
     margin-top: 164px;
   }
+  .modal svg {
+    top: 26px;
+    right: 26px;
+  }
 }
-
-/******* css для відображення невалідного імейла в інпуті 
-(необхідно прописати функцію в js /*******/
-
-/* .invalid-email {
-  color: red;
-}
-
-.invalid-email::after {
-  content: 'Invalid email, try again';
-  display: block;
-  font-size: 14px;
-  margin-top: 5px;
-} */
