@@ -1,4 +1,5 @@
-import { getReviews } from './getReviews';
+
+ import { getReviews } from './getReviews';
 import { renderReviews } from './renderReviews';
 
 export const reviewsListEl = document.querySelector('.reviews-list');
@@ -8,12 +9,19 @@ addEventListener('load', async () => {
   try {
     const fetchedReviews = await getReviews();
     renderReviews(fetchedReviews);
-  } catch (error) {
-    const errorContainer = `
-            <div class="errorContainer">
-                <h3 class="not-found-title">Not Found...</h3>
-            </div>
-          `;
+   } catch (error) {
+     const errorContainer = `
+        <div class="errorContainer">
+               <h3 class="not-found-title">Not Found...</h3>
+            </div>          `;
     listContainerEl.innerHTML = errorContainer;
-  }
-});
+   }
+ });
+
+
+
+  
+
+
+
+ 
