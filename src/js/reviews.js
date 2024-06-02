@@ -5,9 +5,6 @@ import { renderReviews } from './renderReviews';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-//import X icon for iziToast
-import icon from '../img/svg/cross.svg';
-
 export const reviewsListEl = document.querySelector('.reviews-list');
 const listContainerEl = document.querySelector('.list-conteiner');
 
