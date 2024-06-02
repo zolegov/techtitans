@@ -69,7 +69,7 @@
 @media (min-width: 768px) {
   .benefits-section {
     max-width: 768px;
-    padding-bottom: 124px;
+    padding-bottom: 67px;
     padding-top: 0;
   }
 
@@ -118,6 +118,7 @@
     font-weight: 400;
     line-height: 32px;
     margin: 0 0 16px 0;
+    letter-spacing: 0.02em;
   }
 
   .benefits-list-item {
