@@ -1,6 +1,13 @@
 import { getReviews } from './getReviews';
 import { renderReviews } from './renderReviews';
 
+// iziToast
+import iziToast from 'izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
+
+//import X icon for iziToast
+import icon from '../img/svg/cross.svg';
+
 export const reviewsListEl = document.querySelector('.reviews-list');
 const listContainerEl = document.querySelector('.list-conteiner');
 
@@ -16,5 +23,16 @@ addEventListener('load', async () => {
             </div>
           `;
     listContainerEl.innerHTML = errorContainer;
+
+    iziToast.show({
+      message: 'Oops, there are issues with showing reviews!',
+      position: 'topRight',
+      backgroundColor: '#EF4040',
+      transitionIn: 'bounceInDown',
+      transitionOut: 'fadeOutUp',
+      theme: 'dark',
+      timeout: 50000,
+      closeOnClick: true,
+    });
   }
 });
