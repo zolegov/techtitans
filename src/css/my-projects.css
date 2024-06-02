@@ -1,5 +1,5 @@
 .section-projects {
-  padding-bottom: 80px;
+  padding-bottom: 92px;
 }
 
 .container {
@@ -19,11 +19,11 @@
   color: #00b068;
 }
 .my-projects-list {
-  margin-bottom: 22px;
+  margin-bottom: 60px;
 }
 
 .my-projects-item {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 
   &.is-hidden {
     display: none;
