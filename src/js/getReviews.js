@@ -1,7 +1,7 @@
 // import axios
 import axios from 'axios';
 
-const BASE_URL = 'https://portfolio-js.b.goit.study/1api';
+const BASE_URL = 'https://portfolio-js.b.goit.study/api';
 
 // get reviews from backend
 export async function getReviews() {
