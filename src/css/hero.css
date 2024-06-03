@@ -6,7 +6,9 @@
   padding-bottom: 72px;
   background-image: url(../img/hero/hero-decor-bg-mob.webp);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-size: 320px 704px;
+  background-position-y: 16px;
+  background-position-x: 20px;
 }
 
 @supports (background-image: url(../img/hero/hero-decor-bg-mob.webp)) {
@@ -98,7 +100,7 @@
   top: 0;
   left: 155px;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 300ms ease;
 }
 
 .hero-decor-rectangle:hover{
@@ -119,7 +121,6 @@
 }
 
 .hero-soc-list-wrap{
-  max-width: 360px;
   margin: 0 auto;
   padding: 0;
   background-color: #E4E5E6;
@@ -150,7 +151,9 @@
     padding-bottom: 0;
     background-image: url(../img/hero/hero-decor-bg-tab.webp);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-size: 704px 896px;
+    background-position-y: 13px;
+    background-position-x: 34px;
   }
 
   @supports (background-image: url(../img/hero/hero-decor-bg-tab.webp)) {
@@ -220,10 +223,6 @@
     letter-spacing: 0.025em;
   }
 
-  .hero-soc-list-wrap{
-    max-width: 768px;
-  }
-
   .hero-soc-list {
     display: flex;
     flex-direction: row;
@@ -250,7 +249,9 @@
     padding-bottom: 0;
     background-image: url(../img/hero/hero-decor-bg-desk.webp);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-size: 1216px 772px;
+    background-position-y: 16px;
+    background-position-x: 32px;
   }
 
 @supports (background-image: url(../img/hero/hero-decor-bg-desk.webp)) {
@@ -329,9 +330,5 @@
     padding-bottom: 0;
     width: 592px;
     letter-spacing: 0.027em;
-  }
-
-  .hero-soc-list-wrap{
-    max-width: 1280px;
   }
 }
