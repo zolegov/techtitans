@@ -1,6 +1,6 @@
-/* .reviews {
+.reviews {
   padding-bottom: 80px;
-} */
+}
 
 .reviews-title {
   font-family: Impact;
@@ -14,9 +14,6 @@
 
 .reviews-list {
   display: flex;
-  /* flex-wrap: wrap; */
-  /* overflow: hidden; */
-  /* gap: 32px; */
 }
 .reviews-list-item {
   width: 100%;
@@ -150,9 +147,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* .reviews {
+  .reviews {
     padding-bottom: 124px;
-  } */
+  }
   .reviews-title {
     font-size: 108px;
     line-height: 1.15;
@@ -180,9 +177,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  /* .reviews {
-    padding-bottom: 164px;
-  } */
+  .reviews {
+    padding-bottom: 0;
+  }
 
   .reviews-title {
     margin-bottom: 80px;

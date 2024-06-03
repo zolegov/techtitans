@@ -24,7 +24,8 @@
 .work-together-contacts {
   margin-top: 40px;
   margin-bottom: 40px;
-  width: 320px;
+  /* max-width: 320px; */
+  width: 100%;
   height: 220px;
 }
 
@@ -37,6 +38,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: black;
+  width: 100%;
 }
 
 .contact {
@@ -51,6 +53,7 @@
 
 .contacts-img {
   margin-right: 16px;
+  flex-shrink: 0;
 }
 
 .contacts-item-text {
@@ -93,6 +96,7 @@
   letter-spacing: 0.03em;
   color: black;
   outline: none;
+  width: 100%;
 }
 
 .textarea-text {
@@ -106,6 +110,7 @@
   border-radius: 8px;
   padding: 12px 24px;
   max-width: 320px;
+  width: 100%;
   height: 48px;
   background: #00b068;
   font-family: 'Poppins', sans-serif;
@@ -215,7 +220,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .work-together {
+  .work-together .container {
     background-image: url('../img/decor-bg/decor-bg-3.webp');
     background-repeat: no-repeat;
     background-position-x: 400px;
@@ -264,12 +269,12 @@
     margin-bottom: 0;
   }
   .work-together-form {
-    width: 704px;
+    max-width: 704px;
     height: 288px;
   }
   .input-text,
   .textarea-text {
-    width: 704px;
+    max-width: 704px;
     height: 48px;
   }
   .textarea-text {
@@ -311,11 +316,12 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .work-together {
+  .work-together .container {
     background-image: url('../img/decor-bg/decor-bg-4.webp');
     background-repeat: no-repeat;
     background-position-x: 717px;
     background-position-y: 14px;
+    padding-top: 164px;
   }
   .together-picture {
     width: 526px;
@@ -357,7 +363,7 @@
   }
   .work-together {
     padding-bottom: 164px;
-    padding-top: 164px;
+    /* padding-top: 164px; */
   }
   .modal .modal-close-btn {
     top: 26px;
