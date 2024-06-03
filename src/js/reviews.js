@@ -41,8 +41,8 @@ addEventListener('load', async () => {
 
 const swiper = new Swiper('.mySwiper', {
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.reviews-btn-right',
+    prevEl: '.reviews-btn-left',
   },
   breakpoints: {
     // when window width is >= 320px

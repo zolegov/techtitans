@@ -200,3 +200,11 @@
     height: 48px;
   }
 }
+
+/* new style btn */
+.reviews-btn-left.swiper-button-disabled,
+.reviews-btn-right.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
