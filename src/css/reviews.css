@@ -208,3 +208,11 @@
   cursor: auto;
   pointer-events: none;
 }
+
+.reviews-btn-left .reviews-icon use {
+  href: url('../img/svg/sprite.svg#icon-arrow-left');
+}
+
+.reviews-btn-right .reviews-icon use {
+  href: url('../img/svg/sprite.svg#icon-arrow-right');
+}
