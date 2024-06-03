@@ -8,7 +8,9 @@
   color: #292929;
   margin-bottom: 40px;
 }
-
+.about-me-section {
+  padding-bottom: 80px;
+}
 .title-span {
   color: #00b068;
 }
@@ -112,6 +114,9 @@
 }
 
 @media (min-width: 768px) {
+  .about-me-section {
+    padding-bottom: 124px;
+  }
   .about-title {
     font-family: 'Impact', sans-serif;
     font-weight: 400;
@@ -188,6 +193,9 @@
 }
 
 @media (min-width: 1280px) {
+  .about-me-section {
+    padding-bottom: 164px;
+  }
   .about-me {
     background-image: url(../img/about-me/decor-1x-desk.png);
     background-repeat: no-repeat;

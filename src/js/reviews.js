@@ -44,7 +44,7 @@ addEventListener('load', async () => {
 const swiper = new Swiper('.mySwiper', {
   navigation: {
     nextEl: '.reviews-btn-right',
-    prevEl: `.reviews-btn-left`,
+    prevEl: '.reviews-btn-left',
   },
   keyboard: {
     enabled: true,
