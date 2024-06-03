@@ -89,9 +89,20 @@
 }
 .mySwiper .reviews-btn-left.swiper-button-prev.swiper-button-disabled {
   position: static;
+  color: gray;
+}
+.mySwiper .reviews-btn-left.swiper-button-prev.swiper-button-disabled,
+.mySwiper .reviews-btn-right.swiper-button-next {
+  position: static;
+  color: gray;
 }
 .mySwiper .reviews-btn-right.swiper-button-next {
   position: static;
+  color: gray;
+}
+.mySwiper .reviews-btn-left.swiper-button-prev {
+  position: static;
+  color: gray;
 }
 .reviews-btn-right {
   display: flex;
