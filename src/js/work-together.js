@@ -3,14 +3,14 @@ import * as basicLightbox from 'basiclightbox';
 import 'basiclightbox/dist/basicLightbox.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-
+import spriteUrl from '../img/svg/sprite.svg';
 const BASE_URL = 'https://portfolio-js.b.goit.study/api';
 
 const instance = basicLightbox.create(`
     <div class="modal js-modal-window">
     <button class="modal-close-btn">
         <svg class="modal-img">
-            <use href="./img/svg/sprite.svg#icon-cross"></use>
+            <use href="${spriteUrl}#icon-cross"></use>
         </svg>
     </button>
         <div class="text-content-modal">
