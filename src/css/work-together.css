@@ -207,6 +207,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .work-together {
+    padding-bottom: 124px;
+  }
   .work-together-title {
     font-size: 108px;
     line-height: 1.15;

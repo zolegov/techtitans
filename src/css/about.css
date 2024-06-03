@@ -143,7 +143,10 @@
     background-position: left 393px top 850px;
     background-size: 336px 252px;
   }
-
+  .education-item:not(:last-child),
+  .role-item:not(:last-child) {
+    margin-bottom: 16px;
+  }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
