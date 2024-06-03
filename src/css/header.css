@@ -11,7 +11,7 @@ html {
   width: 100%;
   min-width: 320px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 18px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +34,7 @@ html {
 }
 
 .logo-green {
-  color: #00B068;
+  color: #00b068;
 }
 
 .header-navigation {
@@ -62,7 +62,7 @@ html {
 }
 
 .header-menu-link:hover {
-  color: #00B068;
+  color: #00b068;
   transition: color 0.3s ease;
 }
 
@@ -84,7 +84,7 @@ html {
 }
 
 .modal-header {
-  background-image: url("../img/decor-bg/decor-bg-5-2x.png");
+  background-image: url('../img/decor-bg/decor-bg-5-2x.png');
   background-color: #f0f0f0;
   background-size: 95%;
   position: fixed;

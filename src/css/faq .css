@@ -44,7 +44,7 @@
   color: transparent;
   position: absolute;
   right: 15px;
-  top: 25px;
+  top: 15px;
 }
 .ac.is-active > .ac-header .ac-trigger::after {
   content: '';
@@ -54,7 +54,7 @@
   background: url('../img/svg/arrow-up.svg') no-repeat center !important;
   background-size: contain;
   position: absolute;
-  top: 25px;
+  top: 15px;
   right: 15px;
 }
 .fac-container .accordion-container .ac .ac-trigger {
