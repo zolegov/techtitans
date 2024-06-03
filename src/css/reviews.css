@@ -97,11 +97,16 @@
   position: static;
   color: gray;
 }
+.reviews-btn-left {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #2929294d;
+}
 .reviews-btn-right {
   display: flex;
   align-items: center;
 
-  padding: 12px;
+  padding: 8px;
   gap: 10px;
   border-radius: 8px;
 
