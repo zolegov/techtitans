@@ -1,13 +1,6 @@
 .reviews {
   padding-bottom: 80px;
 }
-.reviews-title-conteiner {
-  /* width: 320px;
-    height: 360px;
-    gap: 24px;
-     padding-left: 20px;
-      padding-right: 20px;  */
-}
 
 .reviews-title {
   font-family: Impact;
@@ -18,8 +11,7 @@
   /* width: 194px; */
   margin-bottom: 40px;
 }
-.list-conteiner {
-}
+
 .reviews-list {
   display: flex;
   /* flex-wrap: wrap; */
@@ -80,7 +72,7 @@
   display: flex;
   align-items: center;
 
-  padding: 12px;
+  padding: 20px;
   gap: 10px;
   border-radius: 8px;
 
@@ -99,6 +91,7 @@
 .mySwiper .reviews-btn-right.swiper-button-next {
   position: static;
   color: gray;
+  padding: 20px;
 }
 .mySwiper .reviews-btn-left.swiper-button-prev {
   position: static;
@@ -163,13 +156,11 @@
 
     margin-bottom: 60px;
   }
-  .list-conteiner {
-  }
+
   .reviews-list {
     gap: 32px;
   }
-  .reviews-list-item {
-  }
+
   .reviews-item {
     width: 640px;
     margin-bottom: 27px;
@@ -191,10 +182,7 @@
   .reviews-title {
     margin-bottom: 80px;
   }
-  .list-conteiner {
-  }
-  .reviews-list-item {
-  }
+
   .reviews-item {
     width: 528px;
     height: 96px;
