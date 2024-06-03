@@ -83,7 +83,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
   background: lightgrey;
-  margin-bottom: 32px;
+
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
@@ -96,6 +96,7 @@
   height: 128px;
   padding-top: 16px;
   resize: none;
+  margin: 32px 0;
 }
 
 .form-button {
@@ -199,11 +200,15 @@
   height: 20px;
 }
 
-.input-with-svg {
-  background-image: url('../img/svg/input-success.svg');
-  background-repeat: no-repeat;
-  background-position: right 16px center;
-  background-size: 16px;
+.work-email-wrapper {
+  position: relative;
+}
+
+.input-success-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
