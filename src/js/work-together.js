@@ -6,6 +6,8 @@ import 'izitoast/dist/css/iziToast.min.css';
 import spriteUrl from '../img/svg/sprite.svg';
 const BASE_URL = 'https://portfolio-js.b.goit.study/api';
 
+const inputSvg = document.querySelector('.input-success-icon');
+
 const instance = basicLightbox.create(`
     <div class="modal js-modal-window">
     <button class="modal-close-btn">
@@ -38,7 +40,6 @@ document.querySelector('.input-text').addEventListener('blur', () => {
   const errorMessage = document
     .querySelector('.work-together-input')
     .querySelector('.error-message');
-  const inputSvg = document.querySelector('.input-success-icon');
 
   if (!validateEmail(email)) {
     emailInput.classList.add('invalid');
@@ -80,6 +81,7 @@ formAll.addEventListener('submit', async event => {
     if (response.status === 201) {
       instance.show();
       form.reset();
+      inputSvg.style.display = 'none';
       addEventListener('keydown', function (e) {
         if (e.keyCode === 27) instance.close();
       });
