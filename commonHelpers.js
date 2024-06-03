@@ -18,7 +18,7 @@ import{a as y,i as v,S as w,b as L,A as b}from"./assets/vendor-fc5788e3.js";(fun
                 <h3 class="not-found-title">Oops, something went wrong...😱</h3>
                 <p class="not-found-text">Reviews not found..</p>
             </div>
-          `;O.innerHTML=s,v.show({message:"Oops, there are issues with showing reviews!",position:"topRight",backgroundColor:"#EF4040",transitionIn:"bounceInDown",transitionOut:"fadeOutUp",theme:"dark",timeout:5e3,closeOnClick:!0})}});new w(".mySwiper",{navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},breakpoints:{1280:{slidesPerView:2}}});const A="/techtitans/assets/sprite-f4ef88fc.svg",C="https://portfolio-js.b.goit.study/api",a=L.create(`
+          `;O.innerHTML=s,v.show({message:"Oops, there are issues with showing reviews!",position:"topRight",backgroundColor:"#EF4040",transitionIn:"bounceInDown",transitionOut:"fadeOutUp",theme:"dark",timeout:5e3,closeOnClick:!0})}});new w(".mySwiper",{navigation:{nextEl:".reviews-btn-right",prevEl:".reviews-btn-left"},breakpoints:{1280:{slidesPerView:2}}});const A="/techtitans/assets/sprite-f4ef88fc.svg",C="https://portfolio-js.b.goit.study/api",a=L.create(`
     <div class="modal js-modal-window">
     <button class="modal-close-btn">
         <svg class="modal-img">
