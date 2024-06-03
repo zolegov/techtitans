@@ -109,12 +109,16 @@
 .my-project-btn:hover {
   color: #00b068;
 }
-
+.my-project-img {
+  border-radius: 16px;
+}
 @media screen and (min-width: 768px) {
   .section-projects {
     padding-bottom: 124px;
   }
-
+  .my-project-img {
+    border-radius: 24px;
+  }
   .my-projects-title {
     font-size: 108px;
     line-height: 1.15;
