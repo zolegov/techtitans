@@ -38,24 +38,25 @@ document.querySelector('.input-text').addEventListener('blur', () => {
   const errorMessage = document
     .querySelector('.work-together-input')
     .querySelector('.error-message');
-  const inputSvg = document.querySelector('.input-with-svg');
+  const inputSvg = document.querySelector('.input-success-icon');
 
   if (!validateEmail(email)) {
     emailInput.classList.add('invalid');
     errorText.textContent = 'Invalid email, try again';
     errorMessage.style.display = 'block';
+    inputSvg.style.display = 'none';
+
     setTimeout(() => {
       emailInput.classList.remove('invalid');
       errorText.textContent = '';
       errorMessage.style.display = 'none';
-      inputSvg.style.backgroundImage = 'none';
     }, 5000);
     return;
   } else {
     emailInput.classList.remove('invalid');
     errorText.textContent = '';
     errorMessage.style.display = 'none';
-    inputSvg.style.backgroundImage = 'url("../img/svg/input-success.svg")';
+    inputSvg.style.display = 'block';
   }
 });
 
@@ -98,5 +99,3 @@ function validateEmail(email) {
   console.log(email);
   return validNO.test(email);
 }
-
-// console.log();

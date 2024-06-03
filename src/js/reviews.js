@@ -46,6 +46,12 @@ const swiper = new Swiper('.mySwiper', {
     nextEl: '.reviews-btn-right',
     prevEl: `.reviews-btn-left`,
   },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+  },
+  mousewheel: true,
+  touchEventsTarget: 'container',
   breakpoints: {
     // when window width is >= 320px
     1280: {
