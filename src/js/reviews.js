@@ -39,12 +39,12 @@ addEventListener('load', async () => {
     });
   }
 });
-const revNext = document.querySelector('.reviews-btn-right');
-revNext.style.backgroundColor = `${spriteUrl}#icon-arrow-right`;
+// const revNext = document.querySelector('.reviews-btn-right');
+// revNext.style.backgroundColor = `${spriteUrl}#icon-arrow-right`;
 const swiper = new Swiper('.mySwiper', {
   navigation: {
     nextEl: '.reviews-btn-right',
-    prevEl: '.reviews-btn-left',
+    prevEl: `.reviews-btn-left`,
   },
   breakpoints: {
     // when window width is >= 320px

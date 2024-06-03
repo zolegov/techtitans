@@ -1,9 +1,3 @@
-.benefits-section {
-  max-width: 360px;
-  margin: 0 auto;
-  padding-bottom: 48px;
-}
-
 .benefits-wrap {
   max-width: 320px;
   margin: 0 auto;
@@ -67,12 +61,6 @@
 }
 
 @media (min-width: 768px) {
-  .benefits-section {
-    max-width: 768px;
-    padding-bottom: 67px;
-    padding-top: 0;
-  }
-
   .benefit-header-title {
     margin-bottom: 8px;
   }
@@ -147,12 +135,6 @@
 }
 
 @media (min-width: 1280px) {
-  .benefits-section {
-    max-width: 1280px;
-    padding-bottom: 32px;
-    padding-top: 0;
-  }
-
   .benefits-wrap {
     max-width: 1280px;
     padding: 0;

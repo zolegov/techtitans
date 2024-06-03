@@ -1,6 +1,7 @@
 .work-together {
   padding-bottom: 80px;
 }
+
 .work-together-title {
   font-family: Impact, sans-serif;
   font-weight: 400;
@@ -9,6 +10,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #00b068;
+  max-width: 253px;
 }
 
 .highlight {
@@ -57,6 +59,7 @@
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: black;
+  transition: color 300ms ease;
 }
 
 .contacts-item-text:hover {
@@ -208,12 +211,18 @@
 
 @media screen and (min-width: 768px) {
   .work-together {
+    background-image: url('../img/decor-bg/decor-bg-3.webp');
+    background-repeat: no-repeat;
+    background-position-x: 400px;
+    background-position-y: 15px;
+    padding-top: 124px;
     padding-bottom: 124px;
   }
   .work-together-title {
     font-size: 108px;
     line-height: 1.15;
     letter-spacing: 0.02em;
+    max-width: 507px;
   }
 
   .title-picture {
@@ -237,6 +246,7 @@
   .work-together-contacts-title {
     font-size: 20px;
     line-height: 1.6;
+    max-width: 488px;
   }
   .contacts-list {
     display: flex;
@@ -286,6 +296,9 @@
     height: 152px;
   }
 
+  .work-together-title {
+    max-width: 515px;
+  }
   .modal svg {
     top: 20px;
     right: 20px;
@@ -293,6 +306,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .work-together {
+    background-image: url('../img/decor-bg/decor-bg-4.webp');
+    background-repeat: no-repeat;
+    background-position-x: 717px;
+    background-position-y: 14px;
+  }
   .together-picture {
     width: 526px;
   }
@@ -310,10 +329,6 @@
   .work-together-contacts-title {
     margin-bottom: 120px;
     padding-bottom: 0;
-  }
-
-  .work-together-title {
-    padding-right: 300px;
   }
 
   .contacts-list {
@@ -337,6 +352,7 @@
   }
   .work-together {
     padding-bottom: 164px;
+    padding-top: 164px;
   }
   .modal .modal-close-btn {
     top: 26px;

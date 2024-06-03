@@ -1,6 +1,6 @@
-.reviews {
+/* .reviews {
   padding-bottom: 80px;
-}
+} */
 
 .reviews-title {
   font-family: Impact;
@@ -150,9 +150,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .reviews {
+  /* .reviews {
     padding-bottom: 124px;
-  }
+  } */
   .reviews-title {
     font-size: 108px;
     line-height: 1.15;
@@ -180,9 +180,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .reviews {
+  /* .reviews {
     padding-bottom: 164px;
-  }
+  } */
 
   .reviews-title {
     margin-bottom: 80px;
@@ -214,10 +214,10 @@
   pointer-events: none;
 }
 
-.reviews-btn-left .reviews-icon use {
+/* .reviews-btn-left .reviews-icon use {
   href: url('../img/svg/sprite.svg#icon-arrow-left');
 }
 
 .reviews-btn-right .reviews-icon use {
   href: url('../img/svg/sprite.svg#icon-arrow-right');
-}
+} */
