@@ -19,9 +19,8 @@
   margin-bottom: 40px;
 }
 .accordion-container .ac {
-  /* padding: 28px 24px; */
   padding: 20px 16px;
-  width: 320px;
+  /* width: 320px; */
   border: transparent;
   border-bottom: 1px solid #ccc;
   margin: 0;

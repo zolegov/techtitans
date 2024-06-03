@@ -9,7 +9,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 import Swiper from 'swiper/bundle';
 // import styles bundle
 import 'swiper/css/bundle';
-import spriteUrl from '../img/svg/sprite.svg';
+// import spriteUrl from '../img/svg/sprite.svg';
 
 export const reviewsListEl = document.querySelector('.reviews-list');
 const listContainerEl = document.querySelector('.list-conteiner');
@@ -39,8 +39,7 @@ addEventListener('load', async () => {
     });
   }
 });
-// const revNext = document.querySelector('.reviews-btn-right');
-// revNext.style.backgroundColor = `${spriteUrl}#icon-arrow-right`;
+
 const swiper = new Swiper('.mySwiper', {
   navigation: {
     nextEl: '.reviews-btn-right',

@@ -16,9 +16,9 @@ const instance = basicLightbox.create(`
         </svg>
     </button>
         <div class="text-content-modal">
-        <p class="text text-modal-first">
+        <h3 class="text text-modal-first">
             Thank you for your interest in cooperation!
-        </p>
+        </h3>
         <p class="text text-modal-second">The manager will contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch.</p>
     </div>
         </div>
@@ -62,6 +62,12 @@ document.querySelector('.input-text').addEventListener('blur', () => {
 });
 
 const formAll = document.querySelector('.work-together-input');
+function onclickEsc(e) {
+  if (e.keyCode === 27) {
+    instance.close();
+    removeEventListener('keydown', onclickEsc);
+  }
+}
 
 formAll.addEventListener('submit', async event => {
   event.preventDefault();
@@ -82,9 +88,7 @@ formAll.addEventListener('submit', async event => {
       instance.show();
       form.reset();
       inputSvg.style.display = 'none';
-      addEventListener('keydown', function (e) {
-        if (e.keyCode === 27) instance.close();
-      });
+      addEventListener('keydown', onclickEsc);
     }
   } catch (error) {
     iziToast.error({
@@ -98,6 +102,6 @@ formAll.addEventListener('submit', async event => {
 
 function validateEmail(email) {
   const validNO = /^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
-  console.log(email);
+
   return validNO.test(email);
 }

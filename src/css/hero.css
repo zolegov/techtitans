@@ -51,14 +51,14 @@
 }
 
 .hero-title-green {
-  color: #00B068;
+  color: #00b068;
 }
 
-.hero-img{
+.hero-img {
   display: none;
 }
 
-.hero-info-wrap{
+.hero-info-wrap {
   margin-top: 40px;
   margin-bottom: 0;
 }
@@ -80,31 +80,31 @@
   padding: 32px 0;
 }
 
-.hero-link:hover .hero-decor-rectangle{
-  background-color: rgba(0, 176, 104, 0.60);
+.hero-link:hover .hero-decor-rectangle {
+  background-color: rgba(0, 176, 104, 0.6);
 }
 
-.hero-icon-arrow{
+.hero-icon-arrow {
   padding-left: 4px;
   width: 32px;
   height: 30px;
 }
 
-.hero-decor-rectangle{
+.hero-decor-rectangle {
   z-index: -1;
   width: 165px;
   height: 92px;
   border-radius: 16px;
-  background-color: rgba(0, 176, 104, 0.20);
-  position:absolute;
+  background-color: rgba(0, 176, 104, 0.2);
+  position: absolute;
   top: 0;
   left: 155px;
   cursor: pointer;
   transition: background-color 300ms ease;
 }
 
-.hero-decor-rectangle:hover{
-  background-color: rgba(0, 176, 104, 0.60);
+.hero-decor-rectangle:hover {
+  background-color: rgba(0, 176, 104, 0.6);
 }
 
 .hero-info {
@@ -117,13 +117,13 @@
 }
 
 .hero-info-greeen {
-  color: #00B068;
+  color: #00b068;
 }
 
-.hero-soc-list-wrap{
+.hero-soc-list-wrap {
   margin: 0 auto;
   padding: 0;
-  background-color: #E4E5E6;
+  background-color: #e4e5e6;
 }
 
 .hero-soc-list {
@@ -160,7 +160,7 @@
     .hero-container {
       background-image: url(../img/hero/hero-decor-bg-tab.webp);
     }
-  
+
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       .hero-container {
         background-image: url(../img/hero/hero-decor-bg-tab-2x.webp);
@@ -175,7 +175,7 @@
       }
     }
   }
-  
+
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     @supports (background-image: url(../img/hero/hero-decor-bg-tab.png)) {
       .hero-container {
@@ -188,10 +188,10 @@
     padding-top: 88px;
     font-size: 124px;
     line-height: 1.19355;
-    letter-spacing: 0.01451em;;
+    letter-spacing: 0.01451em;
   }
 
-  .hero-info-wrap{
+  .hero-info-wrap {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -209,7 +209,7 @@
     padding: 32px 0;
   }
 
-  .hero-decor-rectangle{
+  .hero-decor-rectangle {
     width: 261px;
     height: 96px;
     top: 0;
@@ -231,7 +231,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  
+
   .hero-soc-link {
     color: #292929;
     font-weight: 300;
@@ -254,35 +254,35 @@
     background-position-x: 32px;
   }
 
-@supports (background-image: url(../img/hero/hero-decor-bg-desk.webp)) {
-  .hero-container {
-    background-image: url(../img/hero/hero-decor-bg-desk.webp);
+  @supports (background-image: url(../img/hero/hero-decor-bg-desk.webp)) {
+    .hero-container {
+      background-image: url(../img/hero/hero-decor-bg-desk.webp);
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .hero-container {
+        background-image: url(../img/hero/hero-decor-bg-desk-2x.webp);
+      }
+    }
+  }
+  /* Додаємо підтримку PNG */
+  @media (-webkit-min-device-pixel-ratio: 1), (min-resolution: 96dpi) {
+    @supports (background-image: url(../img/hero/hero-decor-bg-desk.png)) {
+      .hero-container {
+        background-image: url(../img/hero/hero-decor-bg-desk.png);
+      }
+    }
   }
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .hero-container {
-      background-image: url(../img/hero/hero-decor-bg-desk-2x.webp);
+    @supports (background-image: url(../img/hero/hero-decor-bg-desk.png)) {
+      .hero-container {
+        background-image: url(../img/hero/hero-decor-bg-desk-2x.png);
+      }
     }
   }
-}
-/* Додаємо підтримку PNG */
-@media (-webkit-min-device-pixel-ratio: 1), (min-resolution: 96dpi) {
-  @supports (background-image: url(../img/hero/hero-decor-bg-desk.png)) {
-    .hero-container {
-      background-image: url(../img/hero/hero-decor-bg-desk.png);
-    }
-  }
-}
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  @supports (background-image: url(../img/hero/hero-decor-bg-desk.png)) {
-    .hero-container {
-      background-image: url(../img/hero/hero-decor-bg-desk-2x.png);
-    }
-  }
-}
-
-  .hero-title-wrap{
+  .hero-title-wrap {
     display: flex;
     flex-direction: row;
     gap: 72px;
@@ -296,31 +296,31 @@
     letter-spacing: 0.014em;
     padding-top: 0;
     padding-bottom: 0;
-  }  
+  }
 
-  .hero-img{
+  .hero-img {
     display: block;
   }
 
-  .hero-info-wrap{
+  .hero-info-wrap {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 136px;
     margin-top: 80px;
-    margin-bottom: 96px;
+    padding-bottom: 96px;
   }
 
-  .hero-link{
+  .hero-link {
     margin-left: 72px;
   }
 
-  .hero-icon-arrow{
+  .hero-icon-arrow {
     width: 31px;
     height: 30px;
   }
-  
-  .hero-decor-rectangle{
+
+  .hero-decor-rectangle {
     top: 0;
     left: 155px;
   }
