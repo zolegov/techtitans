@@ -87,6 +87,12 @@
   border: 1px solid #2929294d;
   background-color: #fff;
 }
+.mySwiper .reviews-btn-left.swiper-button-prev.swiper-button-disabled {
+  position: static;
+}
+.mySwiper .reviews-btn-right.swiper-button-next {
+  position: static;
+}
 .reviews-btn-right {
   display: flex;
   align-items: center;
