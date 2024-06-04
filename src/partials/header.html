@@ -18,19 +18,33 @@
         <use href="./img/svg/sprite.svg#icon-cross"></use>
       </svg>
     </button>
-    <nav class="header-navigation">
-      <ul class="header-menu">
-        <li class="header-menu-item">
-          <a class="header-menu-link" href="#about-me">About me</a>
-        </li>
-        <li class="header-menu-item">
-          <a class="header-menu-link" href="#my-project">Projects</a>
-        </li>
-        <li class="header-menu-item">
-          <a class="header-menu-link" href="#work-together">Contacts</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="nav-switcher">
+      <div class="switch-theme-wrapper">
+        <input
+          class="switch-theme-checkbox"
+          value="light"
+          type="checkbox"
+          id="theme-check"
+        />
+
+        <label class="theme-toggle" for="theme-check"></label>
+        <div class="checkbox-circle"></div>
+      </div>
+
+      <nav class="header-navigation">
+        <ul class="header-menu">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#about-me">About me</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#my-project">Projects</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#work-together">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
 
