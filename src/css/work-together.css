@@ -122,10 +122,11 @@
   color: #fff;
   border: none;
   cursor: pointer;
+  transition: background-color 300ms ease;
 }
 
 .form-button:hover {
-  background: #009156;
+  background-color: #009156;
 }
 
 .separator {
