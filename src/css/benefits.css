@@ -138,6 +138,7 @@
   .benefits-wrap {
     max-width: 1280px;
     padding: 0;
+    padding-bottom: 64px;
     position: relative;
   }
 
@@ -156,10 +157,13 @@
   }
 
   .desktop-background {
+    background-image: url('../img/decor-bg/decor-bg-4-2x.webp');
+    background-repeat: no-repeat;
+    background-size: 526px;
     position: absolute;
-    bottom: 67%;
-    left: 58%;
-    max-width: 526px;
+    bottom: 69%;
+    left: 57%;
+    width: 526px;
     min-height: 408px;
     display: block;
   }
@@ -173,7 +177,7 @@
   }
 
   .benefits-list {
-    bottom: 23%;
+    bottom: 104px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto;
@@ -184,6 +188,7 @@
 
   .benefits-list-item {
     min-width: 384px;
+    margin: 0;
   }
 
   .benefits-list-item:nth-child(1) {
