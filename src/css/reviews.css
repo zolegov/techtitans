@@ -31,12 +31,11 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
-  width: 256px;
+  max-width: 256px;
   padding-bottom: 24px;
 }
 .reviews-list-conteiner {
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 16px;
   align-items: center;
 }
@@ -159,12 +158,12 @@
     margin-bottom: 60px;
   }
 
-  .reviews-list {
+  /* .reviews-list {
     gap: 32px;
-  }
+  } */
 
   .reviews-item {
-    width: 640px;
+    max-width: 640px;
     margin-bottom: 27px;
   }
 
@@ -186,7 +185,7 @@
   }
 
   .reviews-item {
-    width: 528px;
+    max-width: 528px;
     height: 96px;
   }
   .btn-conteiner {
