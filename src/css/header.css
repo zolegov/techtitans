@@ -204,3 +204,13 @@ html {
   transform: translate(30px, -50%);
   background-image: url('../img/svg/moon.svg');
 }
+
+.mobile-switcher {
+  display: block;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
