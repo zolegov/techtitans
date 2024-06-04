@@ -9,7 +9,8 @@ const BASE_URL = 'https://portfolio-js.b.goit.study/api';
 const inputSvg = document.querySelector('.input-success-icon');
 const body = document.querySelector('body');
 
-const instance = basicLightbox.create(`
+const instance = basicLightbox.create(
+  `
     <div class="modal js-modal-window">
     <button class="modal-close-btn">
         <svg class="modal-img">
@@ -23,14 +24,20 @@ const instance = basicLightbox.create(`
         <p class="text text-modal-second">The manager will contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch.</p>
     </div>
         </div>
-`);
+`,
+  {
+    onClose: instance => {
+      body.classList.remove('modal-open');
+    },
+  }
+);
 
 instance
   .element()
   .querySelector('.modal-close-btn')
   .addEventListener('click', () => {
     instance.close();
-    body.classList.remove('modal-open');
+    // body.classList.remove('modal-open');
   });
 
 document.querySelector('.input-text').addEventListener('blur', () => {
