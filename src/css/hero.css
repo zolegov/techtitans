@@ -3,6 +3,7 @@
 }
 
 .hero-container {
+  position: relative;
   padding-bottom: 72px;
   background-image: url(../img/hero/hero-decor-bg-mob.webp);
   background-repeat: no-repeat;
@@ -71,16 +72,17 @@
   line-height: 1.5;
   letter-spacing: 0.027778em;
   text-transform: uppercase;
+  padding: 32px 0;
+  display: inline-block;
 }
 
 .hero-space-link {
   display: flex;
   gap: 12px;
   position: relative;
-  padding: 32px 0;
 }
 
-.hero-link:hover .hero-decor-rectangle {
+.hero-link:hover + .hero-decor-rectangle {
   background-color: rgba(0, 176, 104, 0.6);
 }
 
@@ -91,16 +93,22 @@
 }
 
 .hero-decor-rectangle {
-  z-index: -1;
+  display: inline-block;
   width: 165px;
   height: 92px;
   border-radius: 16px;
   background-color: rgba(0, 176, 104, 0.2);
   position: absolute;
-  top: 0;
-  left: 155px;
+  top: 470px;
+  right: 20px;
   cursor: pointer;
   transition: background-color 300ms ease;
+}
+
+@media screen and (min-width: 335px) {
+  .hero-decor-rectangle {
+    top: 392px;
+  }
 }
 
 .hero-decor-rectangle:hover {
@@ -212,7 +220,8 @@
   .hero-decor-rectangle {
     width: 261px;
     height: 96px;
-    top: 0;
+    top: 622px;
+    right: 320px;
   }
 
   .hero-info {
@@ -321,8 +330,8 @@
   }
 
   .hero-decor-rectangle {
-    top: 0;
-    left: 155px;
+    top: 642px;
+    right: 748px;
   }
 
   .hero-info {
