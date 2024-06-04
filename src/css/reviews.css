@@ -94,6 +94,9 @@
   color: gray;
 }
 .reviews-btn-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 8px;
   border-radius: 8px;
   border: 1px solid #2929294d;
@@ -101,6 +104,7 @@
 .reviews-btn-right {
   display: flex;
   align-items: center;
+  justify-content: center;
 
   padding: 8px;
   gap: 10px;
