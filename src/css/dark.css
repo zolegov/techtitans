@@ -29,6 +29,8 @@ body.dark,
 .dark .reviews-second-title,
 .dark .highlight,
 .dark .work-together-contacts-title,
+.dark .work-together .input-text,
+.dark .work-together .textarea-text,
 .dark .contacts-item-text,
 .dark .footer-main-text,
 .dark .footer-menu-item-link,
@@ -174,4 +176,8 @@ body.dark,
 
 .dark .icon-color {
   stroke: #f0f0f0;
+}
+
+.dark .work-together .input-text.invalid {
+  color: red;
 }
