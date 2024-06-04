@@ -12,33 +12,28 @@
   background-position-x: 20px;
 }
 
-@supports (background-image: url(../img/hero/hero-decor-bg-mob.webp)) {
+/* TODO=================================================== */
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
   .hero-container {
-    background-image: url(../img/hero/hero-decor-bg-mob.webp);
+    background-image: url(../img/hero/hero-decor-bg-mob-2x.webp);
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .hero-container {
-      background-image: url(../img/hero/hero-decor-bg-mob-2x.webp);
-    }
-  }
-}
-/* Додаємо підтримку PNG */
-@media (-webkit-min-device-pixel-ratio: 1), (min-resolution: 96dpi) {
-  @supports (background-image: url(../img/hero/hero-decor-bg-mob.png)) {
+  @supports (not (background-image: url('../img/hero/hero-decor-bg-mob.webp'))) {
     .hero-container {
       background-image: url(../img/hero/hero-decor-bg-mob.png);
     }
   }
-}
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  @supports (background-image: url(../img/hero/hero-decor-bg-mob.png)) {
+  @supports (not (background-image: url('../img/hero/hero-decor-bg-mob-2x.webp'))) {
     .hero-container {
       background-image: url(../img/hero/hero-decor-bg-mob-2x.png);
     }
   }
 }
+
+/* TODO=================================================== */
 
 .hero-title {
   padding-top: 112px;
@@ -148,6 +143,11 @@
   font-weight: 300;
   line-height: 1.5;
   letter-spacing: 0.03125em;
+  transition: color 300ms ease;
+}
+
+.hero-soc-link:hover {
+  color: #00B068;
 }
 
 @media screen and (min-width: 768px) {
@@ -164,33 +164,27 @@
     background-position-x: 34px;
   }
 
-  @supports (background-image: url(../img/hero/hero-decor-bg-tab.webp)) {
+/* TODO =================================================*/
+  @media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(../img/hero/hero-decor-bg-tab.webp);
-    }
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      .hero-container {
-        background-image: url(../img/hero/hero-decor-bg-tab-2x.webp);
-      }
-    }
-  }
-  /* Додаємо підтримку PNG */
-  @media (-webkit-min-device-pixel-ratio: 1), (min-resolution: 96dpi) {
-    @supports (background-image: url(../img/hero/hero-decor-bg-tab.png)) {
-      .hero-container {
-        background-image: url(../img/hero/hero-decor-bg-tab.png);
-      }
+      background-image: url(../img/hero/hero-decor-bg-tab-2x.webp);
     }
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    @supports (background-image: url(../img/hero/hero-decor-bg-tab.png)) {
-      .hero-container {
-        background-image: url(../img/hero/hero-decor-bg-tab-2x.png);
-      }
+  @supports (not (background-image: url('../img/hero/hero-decor-bg-tab.webp'))) {
+    .hero-container {
+      background-image: url(../img/hero/hero-decor-bg-tab.png);
     }
   }
+
+  @supports (not (background-image: url('../img/hero/hero-decor-bg-tab-2x.webp'))) {
+    .hero-container {
+      background-image: url(../img/hero/hero-decor-bg-tab-2x.png);
+    }
+  }
+/* TODO =================================================*/
 
   .hero-title {
     padding-top: 88px;
@@ -207,6 +201,7 @@
   }
 
   .hero-link {
+    padding: 0;
     width: 416px;
     font-size: 20px;
     line-height: 1.6;
@@ -220,7 +215,7 @@
   .hero-decor-rectangle {
     width: 261px;
     height: 96px;
-    top: 622px;
+    top: 592px;
     right: 320px;
   }
 
@@ -263,33 +258,27 @@
     background-position-x: 32px;
   }
 
-  @supports (background-image: url(../img/hero/hero-decor-bg-desk.webp)) {
+/* TODO============================================= */
+  @media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(../img/hero/hero-decor-bg-desk.webp);
-    }
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      .hero-container {
-        background-image: url(../img/hero/hero-decor-bg-desk-2x.webp);
-      }
-    }
-  }
-  /* Додаємо підтримку PNG */
-  @media (-webkit-min-device-pixel-ratio: 1), (min-resolution: 96dpi) {
-    @supports (background-image: url(../img/hero/hero-decor-bg-desk.png)) {
-      .hero-container {
-        background-image: url(../img/hero/hero-decor-bg-desk.png);
-      }
+      background-image: url(../img/hero/hero-decor-bg-desk-2x.webp);
     }
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    @supports (background-image: url(../img/hero/hero-decor-bg-desk.png)) {
-      .hero-container {
-        background-image: url(../img/hero/hero-decor-bg-desk-2x.png);
-      }
+  @supports (not (background-image: url('/img/hero/hero-decor-bg-desk.webp'))) {
+    .hero-container {
+      background-image: url(../img/hero/hero-decor-bg-desk.png);
     }
   }
+
+  @supports (not (background-image: url('../img/hero/hero-decor-bg-desk-2x.webp'))) {
+    .hero-container {
+      background-image: url(../img/hero/hero-decor-bg-desk-2x.png);
+    }
+  }
+/* TODO============================================= */
 
   .hero-title-wrap {
     display: flex;
@@ -321,6 +310,7 @@
   }
 
   .hero-link {
+    padding: 0;
     margin-left: 72px;
   }
 
@@ -330,8 +320,8 @@
   }
 
   .hero-decor-rectangle {
-    top: 642px;
-    right: 748px;
+    top: 612px;
+    right: 760px;
   }
 
   .hero-info {
