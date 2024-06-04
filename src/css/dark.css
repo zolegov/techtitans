@@ -1,4 +1,5 @@
-body.dark {
+body.dark,
+.dark .modal-header {
   background-color: #1e2023;
 }
 
@@ -169,4 +170,8 @@ body.dark {
 
 .dark .ac.is-active > .ac-header .ac-trigger::after {
   background: url('../img/svg/arrow-up-dark-theme.svg') no-repeat center !important;
+}
+
+.dark .icon-color {
+  stroke: #f0f0f0;
 }
