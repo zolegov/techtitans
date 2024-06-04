@@ -67,6 +67,10 @@ body.dark {
 .dark .skills-slider-container {
   background-color: #214136;
 }
+
+.dark .skills-slider-container.skills-slider-container-bottom {
+  z-index: 1;
+}
 .dark .skills-slider-container-bottom,
 .dark .my-project-link {
   background: #2a2d32;
