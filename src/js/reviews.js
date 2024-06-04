@@ -51,10 +51,14 @@ const swiper = new Swiper('.mySwiper', {
   },
   mousewheel: true,
   touchEventsTarget: 'container',
+  slidesPerView: 1,
+  spaceBetween: 32,
   breakpoints: {
     // when window width is >= 320px
     1280: {
       slidesPerView: 2,
     },
+    onlyInViewPort: true,
+    autoHeight: true,
   },
 });
