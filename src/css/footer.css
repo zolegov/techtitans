@@ -1,4 +1,5 @@
 .footer {
+  padding-top: 40px;
   border-top: 1px solid #e4e5e6;
 }
 
@@ -19,10 +20,9 @@
   letter-spacing: 1.5px;
   text-align: left;
   color: black;
-
 }
 .footer-logo-span {
-  color: #00B068;
+  color: #00b068;
 }
 .footer-menu {
   display: flex;
@@ -40,11 +40,10 @@
   transition: color 0.3s ease;
 }
 .footer-menu-item-link:hover {
-  color: #00B068;
-
+  color: #00b068;
 }
-.footer-nav{
-    margin-top: 32px;
+.footer-nav {
+  margin-top: 32px;
 }
 .footer-made-text {
   width: 200px;
@@ -84,9 +83,9 @@
   .footer-menu {
     margin-bottom: 0;
   }
-    .footer-nav {
-      margin-top: 0;
-    }
+  .footer-nav {
+    margin-top: 0;
+  }
 
   .test {
     display: flex;
