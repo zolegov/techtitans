@@ -1,0 +1,172 @@
+body.dark {
+  background-color: #1e2023;
+}
+
+.dark .logo,
+.dark .header-menu-link,
+.dark .hero-title,
+.dark .hero-link,
+.dark .hero-info,
+.dark .hero-soc-link,
+.dark .about-title,
+.dark .about-title-second,
+.dark .bio-part-one,
+.dark .bio-part-two,
+.dark .education-item,
+.dark .role-item,
+.dark .skill-item-text,
+.dark .skills-slider-container-bottom .skill-item-text,
+.dark .my-projects-title,
+.dark .my-project-text,
+.dark .my-projects-subtitle,
+.dark .benefits-header,
+.dark .benefit-title,
+.dark .benefit-paragraph,
+.dark .faq-title,
+.dark .reviews-title,
+.dark .reviews-item,
+.dark .reviews-second-title,
+.dark .highlight,
+.dark .work-together-contacts-title,
+.dark .contacts-item-text,
+.dark .footer-main-text,
+.dark .footer-menu-item-link,
+.dark .footer-made-text,
+.dark .text.text-modal-second {
+  color: #f0f0f0;
+}
+
+.dark .logo-green,
+.dark .hero-green,
+.dark .hero-info-greeen,
+.dark .my-projects-title > span,
+.dark .green-word,
+.dark .green-word,
+.dark .faq-title span,
+.dark .work-together-title,
+.dark .footer-logo-span,
+.dark .modal h3 {
+  color: #14c57c;
+}
+
+.dark .ac,
+.dark .reviews-list-item {
+  background-color: #2a2d32;
+}
+.dark .ac.is-active {
+  background-color: #204136;
+}
+
+.dark .fac-container .accordion-container .ac .ac-trigger,
+.dark .fac-container .accordion-container .ac .ac-panel .ac-text {
+  color: #f0f0f0;
+}
+
+.dark .accordion-container .ac {
+  border-bottom-color: #3d3d3d;
+}
+
+.dark .skills-slider-container {
+  background-color: #214136;
+}
+
+.dark .skills-slider-container.skills-slider-container-bottom {
+  z-index: 1;
+}
+.dark .skills-slider-container-bottom,
+.dark .my-project-link {
+  background: #2a2d32;
+}
+
+.dark .my-project-link {
+  background: #2a2d32;
+  color: #f0f0f0;
+  transition: background-color 300ms ease;
+}
+
+.dark .my-project-link:hover {
+  background-color: #3b3f45;
+}
+
+.dark .education-item::before,
+.dark .role-item::before,
+.dark .skill-item::before {
+  background-color: #14c57c;
+}
+
+.dark .hero-decor-rectangle {
+  background-color: #204136;
+}
+.hero-decor-rectangle:hover {
+  background-color: #14c57c;
+}
+
+.dark .header-menu-link,
+.dark .hero-link,
+.dark .hero-soc-link,
+.dark .my-project-btn,
+.dark .contacts-item-text {
+  transition: color 300ms ease;
+}
+
+.dark .header-menu-link:hover,
+.dark .hero-link:hover,
+.dark .hero-soc-link:hover,
+.dark .my-project-btn:hover,
+.dark .contacts-item-text:hover {
+  color: #14c57c;
+}
+
+.dark .hero-soc-list {
+  background-color: #2a2d32;
+}
+
+.dark .my-project-btn {
+  color: #f0f0f0;
+  transition: color 300ms ease;
+}
+
+.dark .reviews-btn-right,
+.dark .reviews-btn-left {
+  background-color: transparent;
+  border-color: #2a2d32;
+}
+
+.dark .reviews-icon,
+.dark .modal-img {
+  stroke: #f0f0f0;
+}
+
+.dark .input-text,
+.dark .textarea-text {
+  background-color: #2a2d32;
+}
+.dark .input-text::placeholder,
+.dark .textarea-text::placeholder {
+  color: rgba(240, 240, 240, 0.4);
+}
+
+.dark .form-button {
+  background-color: #14c57c;
+  transition: background-color 300ms ease;
+}
+
+.dark .footer {
+  border-top-color: #e4e5e6;
+}
+
+.dark .form-button:hover {
+  background-color: #009156;
+}
+
+.dark .modal {
+  background-color: #2a2d32;
+}
+
+.dark .fac-container .accordion-container .ac .ac-trigger::after {
+  background: url('../img/svg/arrow-down-dark-theme.svg') no-repeat center !important;
+}
+
+.dark .ac.is-active > .ac-header .ac-trigger::after {
+  background: url('../img/svg/arrow-up-dark-theme.svg') no-repeat center !important;
+}

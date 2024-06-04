@@ -128,8 +128,11 @@ html {
 
 /* Desktop styles */
 @media (min-width: 768px) {
+  .header {
+    padding: 36px 0;
+  }
   .header-container {
-    padding: 32px;
+    padding: 0 32px;
   }
   .nav-switcher {
     display: flex;

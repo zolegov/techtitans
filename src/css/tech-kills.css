@@ -62,6 +62,11 @@
   background-color: #bcdfd1;
 }
 
+.skills-cover {
+  position: relative;
+  z-index: 2;
+}
+
 @media screen and (min-width: 768px) {
   .skills-slider-container {
     padding: 40px 0;
@@ -123,7 +128,7 @@
   background-color: #e4e5e6;
   transform: rotate(2deg);
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 .skills-slider-container-bottom .skill-item {
   position: relative;
