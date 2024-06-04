@@ -48,6 +48,10 @@ body.dark {
   color: #f0f0f0;
 }
 
+.dark .accordion-container .ac {
+  border-bottom-color: #3d3d3d;
+}
+
 .dark .skills-slider-container {
   background-color: #214136;
 }
