@@ -1,0 +1,36 @@
+body.dark {
+  background-color: #1e2023;
+}
+
+.dark .logo,
+.dark .header-menu-link,
+.dark .hero-title,
+.dark .hero-link,
+.dark .hero-info,
+.dark .hero-soc-link {
+  color: #f0f0f0;
+}
+
+.dark .logo-green,
+.dark .hero-green,
+.dark .hero-info-greeen {
+  color: #14c57c;
+}
+
+.dark .hero-decor-rectangle {
+  background-color: #204136;
+}
+.hero-decor-rectangle:hover {
+  background-color: #14c57c;
+}
+
+.dark .header-menu-link:hover,
+.dark .hero-link:hover,
+.dark:hover,
+.dark .hero-soc-link:hover {
+  color: #14c57c;
+}
+
+.dark .hero-soc-list {
+  background-color: #2a2d32;
+}

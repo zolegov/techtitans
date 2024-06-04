@@ -50,7 +50,6 @@ addEventListener('load', () => {
   if (getCurrentTheme === 'dark') {
     body.classList.add('dark');
     themeChangeCheckbox.checked = true;
-    themeChangeCheckboxWrapper.style.backgroundColor = '#2A2D32';
   }
 
   if (getCurrentTheme === 'light') {
@@ -62,7 +61,6 @@ addEventListener('load', () => {
 //Changes the theme and sets it on localStorage
 themeChangeCheckbox.addEventListener('click', () => {
   if (themeChangeCheckbox.checked === true) {
-    themeChangeCheckboxWrapper.style.backgroundColor = '#2A2D32';
     localStorage.setItem(key, 'dark');
     body.classList.add('dark');
     body.classList.remove('light');
@@ -73,7 +71,6 @@ themeChangeCheckbox.addEventListener('click', () => {
     body.classList.remove('dark');
     body.classList.add('light');
     themeChangeCheckbox.checked = false;
-    themeChangeCheckboxWrapper.style.backgroundColor = '#E4E5E6';
     return;
   }
 });
