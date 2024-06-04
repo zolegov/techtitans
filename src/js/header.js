@@ -36,8 +36,10 @@ modalLinks.forEach(link => {
 });
 
 // switcher
-const themeChangeCheckbox = document.querySelector('.switch-theme-checkbox');
-const themeChangeCheckboxWrapper = document.querySelector(
+const themeChangeCheckboxArr = document.querySelectorAll(
+  '.switch-theme-checkbox'
+);
+const themeChangeCheckboxWrapperAll = document.querySelector(
   '.switch-theme-wrapper'
 );
 const body = document.querySelector('body');
@@ -49,28 +51,38 @@ const getCurrentTheme = localStorage.getItem(key);
 addEventListener('load', () => {
   if (getCurrentTheme === 'dark') {
     body.classList.add('dark');
-    themeChangeCheckbox.checked = true;
+    themeChangeCheckboxArr.forEach(el => {
+      el.checked = true;
+    });
   }
 
   if (getCurrentTheme === 'light') {
     body.classList.add('light');
-    themeChangeCheckbox.checked = false;
+    themeChangeCheckboxArr.forEach(el => {
+      el.checked = false;
+    });
   }
 });
 
 //Changes the theme and sets it on localStorage
-themeChangeCheckbox.addEventListener('click', () => {
-  if (themeChangeCheckbox.checked === true) {
-    localStorage.setItem(key, 'dark');
-    body.classList.add('dark');
-    body.classList.remove('light');
-    themeChangeCheckbox.checked = true;
-    return;
-  } else {
-    localStorage.setItem(key, 'light');
-    body.classList.remove('dark');
-    body.classList.add('light');
-    themeChangeCheckbox.checked = false;
-    return;
-  }
+themeChangeCheckboxArr.forEach(el => {
+  el.addEventListener('click', () => {
+    if (el.checked === true) {
+      localStorage.setItem(key, 'dark');
+      body.classList.add('dark');
+      body.classList.remove('light');
+      themeChangeCheckboxArr.forEach(checkbox => {
+        checkbox.checked = true;
+      });
+      return;
+    } else {
+      localStorage.setItem(key, 'light');
+      body.classList.remove('dark');
+      body.classList.add('light');
+      themeChangeCheckboxArr.forEach(checkbox => {
+        checkbox.checked = false;
+      });
+      return;
+    }
+  });
 });
