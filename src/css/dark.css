@@ -25,7 +25,10 @@ body.dark {
 .dark .faq-title,
 .dark .reviews-title,
 .dark .reviews-item,
-.dark .reviews-second-title {
+.dark .reviews-second-title,
+.dark .highlight,
+.dark .work-together-contacts-title,
+.dark .contacts-item-text {
   color: #f0f0f0;
 }
 
@@ -35,7 +38,8 @@ body.dark {
 .dark .my-projects-title > span,
 .dark .green-word,
 .dark .green-word,
-.dark .faq-title span {
+.dark .faq-title span,
+.dark .work-together-title {
   color: #14c57c;
 }
 
@@ -90,14 +94,16 @@ body.dark {
 .dark .header-menu-link,
 .dark .hero-link,
 .dark .hero-soc-link,
-.dark .my-project-btn {
+.dark .my-project-btn,
+.dark .contacts-item-text {
   transition: color 300ms ease;
 }
 
 .dark .header-menu-link:hover,
 .dark .hero-link:hover,
 .dark .hero-soc-link:hover,
-.dark .my-project-btn:hover {
+.dark .my-project-btn:hover,
+.dark .contacts-item-text:hover {
   color: #14c57c;
 }
 
@@ -118,4 +124,17 @@ body.dark {
 
 .dark .reviews-icon {
   stroke: #f0f0f0;
+}
+
+.dark .input-text,
+.dark .textarea-text {
+  background-color: #2a2d32;
+}
+.dark .input-text::placeholder,
+.dark .textarea-text::placeholder {
+  color: rgba(240, 240, 240, 0.4);
+}
+
+.dark .form-button {
+  background-color: #14c57c;
 }
