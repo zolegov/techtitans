@@ -7,6 +7,7 @@ import spriteUrl from '../img/svg/sprite.svg';
 const BASE_URL = 'https://portfolio-js.b.goit.study/api';
 
 const inputSvg = document.querySelector('.input-success-icon');
+const body = document.querySelector('body');
 
 const instance = basicLightbox.create(`
     <div class="modal js-modal-window">
@@ -29,6 +30,7 @@ instance
   .querySelector('.modal-close-btn')
   .addEventListener('click', () => {
     instance.close();
+    body.classList.remove('modal-open');
   });
 
 document.querySelector('.input-text').addEventListener('blur', () => {
@@ -65,6 +67,7 @@ const formAll = document.querySelector('.work-together-input');
 function onclickEsc(e) {
   if (e.keyCode === 27) {
     instance.close();
+    body.classList.remove('modal-open');
     removeEventListener('keydown', onclickEsc);
   }
 }
@@ -86,6 +89,7 @@ formAll.addEventListener('submit', async event => {
 
     if (response.status === 201) {
       instance.show();
+      body.classList.add('modal-open');
       form.reset();
       inputSvg.style.display = 'none';
       addEventListener('keydown', onclickEsc);
