@@ -18,13 +18,18 @@ body.dark {
 .dark .skills-slider-container-bottom .skill-item-text,
 .dark .my-projects-title,
 .dark .my-project-text,
-.dark .my-projects-subtitle {
+.dark .my-projects-subtitle,
+.dark .benefits-header,
+.dark .benefit-title,
+.dark .benefit-paragraph {
   color: #f0f0f0;
 }
 
 .dark .logo-green,
 .dark .hero-green,
-.dark .hero-info-greeen {
+.dark .hero-info-greeen,
+.dark .my-projects-title > span,
+.dark .green-word {
   color: #14c57c;
 }
 
@@ -39,7 +44,7 @@ body.dark {
 .dark .my-project-link {
   background: #2a2d32;
   color: #f0f0f0;
-  transform: background-color 300ms ease;
+  transition: background-color 300ms ease;
 }
 
 .dark .my-project-link:hover {
@@ -61,8 +66,9 @@ body.dark {
 
 .dark .header-menu-link,
 .dark .hero-link,
-.dark .hero-soc-link {
-  transform: background-color 300ms ease;
+.dark .hero-soc-link,
+.dark .my-project-btn {
+  transition: color 300ms ease;
 }
 
 .dark .header-menu-link:hover,
@@ -78,5 +84,5 @@ body.dark {
 
 .dark .my-project-btn {
   color: #f0f0f0;
-  transform: color 300ms ease;
+  transition: color 300ms ease;
 }
