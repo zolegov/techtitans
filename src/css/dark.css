@@ -22,7 +22,10 @@ body.dark {
 .dark .benefits-header,
 .dark .benefit-title,
 .dark .benefit-paragraph,
-.dark .faq-title {
+.dark .faq-title,
+.dark .reviews-title,
+.dark .reviews-item,
+.dark .reviews-second-title {
   color: #f0f0f0;
 }
 
@@ -36,7 +39,8 @@ body.dark {
   color: #14c57c;
 }
 
-.dark .ac {
+.dark .ac,
+.dark .reviews-list-item {
   background-color: #2a2d32;
 }
 .dark .ac.is-active {
@@ -104,4 +108,14 @@ body.dark {
 .dark .my-project-btn {
   color: #f0f0f0;
   transition: color 300ms ease;
+}
+
+.dark .reviews-btn-right,
+.dark .reviews-btn-left {
+  background-color: transparent;
+  border-color: #2a2d32;
+}
+
+.dark .reviews-icon {
+  stroke: #f0f0f0;
 }
