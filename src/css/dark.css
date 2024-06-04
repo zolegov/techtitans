@@ -162,3 +162,11 @@ body.dark {
 .dark .modal {
   background-color: #2a2d32;
 }
+
+.dark .fac-container .accordion-container .ac .ac-trigger::after {
+  background: url('../img/svg/arrow-down-dark-theme.svg') no-repeat center !important;
+}
+
+.dark .ac.is-active > .ac-header .ac-trigger::after {
+  background: url('../img/svg/arrow-up-dark-theme.svg') no-repeat center !important;
+}
