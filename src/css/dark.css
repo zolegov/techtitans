@@ -31,7 +31,8 @@ body.dark {
 .dark .contacts-item-text,
 .dark .footer-main-text,
 .dark .footer-menu-item-link,
-.dark .footer-made-text {
+.dark .footer-made-text,
+.dark .text.text-modal-second {
   color: #f0f0f0;
 }
 
@@ -43,7 +44,8 @@ body.dark {
 .dark .green-word,
 .dark .faq-title span,
 .dark .work-together-title,
-.dark .footer-logo-span {
+.dark .footer-logo-span,
+.dark .modal h3 {
   color: #14c57c;
 }
 
@@ -130,7 +132,8 @@ body.dark {
   border-color: #2a2d32;
 }
 
-.dark .reviews-icon {
+.dark .reviews-icon,
+.dark .modal-img {
   stroke: #f0f0f0;
 }
 
@@ -154,4 +157,8 @@ body.dark {
 
 .dark .form-button:hover {
   background-color: #009156;
+}
+
+.dark .modal {
+  background-color: #2a2d32;
 }
