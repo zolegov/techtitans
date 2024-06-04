@@ -226,7 +226,7 @@
     background-position-x: 400px;
     background-position-y: 15px;
     padding-top: 124px;
-    padding-bottom: 124px;
+    /* padding-bottom: 124px; */
   }
   .work-together-title {
     font-size: 108px;
@@ -363,7 +363,6 @@
   }
   .work-together {
     padding-bottom: 164px;
-    /* padding-top: 164px; */
   }
   .modal .modal-close-btn {
     top: 26px;
