@@ -7,7 +7,13 @@ body.dark {
 .dark .hero-title,
 .dark .hero-link,
 .dark .hero-info,
-.dark .hero-soc-link {
+.dark .hero-soc-link,
+.dark .about-title,
+.dark .about-title-second,
+.dark .bio-part-one,
+.dark .bio-part-two,
+.dark .education-item,
+.dark .role-item {
   color: #f0f0f0;
 }
 
@@ -15,6 +21,11 @@ body.dark {
 .dark .hero-green,
 .dark .hero-info-greeen {
   color: #14c57c;
+}
+
+.dark .education-item::before,
+.dark .role-item::before {
+  background-color: #14c57c;
 }
 
 .dark .hero-decor-rectangle {
