@@ -1,5 +1,4 @@
 .footer {
-  padding-top: 40px;
   border-top: 1px solid #e4e5e6;
 }
 
@@ -58,6 +57,9 @@
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 40px;
+  }
   .footer-container {
     padding: 40px 32px 24px;
   }
