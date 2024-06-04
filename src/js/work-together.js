@@ -29,6 +29,11 @@ const instance = basicLightbox.create(
     onClose: instance => {
       body.classList.remove('modal-open');
     },
+  },
+  {
+    onShow: instance => {
+      body.classList.add('modal-open');
+    },
   }
 );
 
@@ -96,7 +101,7 @@ formAll.addEventListener('submit', async event => {
 
     if (response.status === 201) {
       instance.show();
-      body.classList.add('modal-open');
+      // body.classList.add('modal-open');
       form.reset();
       inputSvg.style.display = 'none';
       addEventListener('keydown', onclickEsc);
