@@ -14,10 +14,12 @@ import 'swiper/css/bundle';
 export const reviewsListEl = document.querySelector('.reviews-list');
 const listContainerEl = document.querySelector('.list-conteiner');
 
-addEventListener('load', async () => {
+async function onLoad() {
   try {
     const fetchedReviews = await getReviews();
     renderReviews(fetchedReviews);
+
+    removeEventListener('load', onLoad);
   } catch (error) {
     const errorContainer = `
             <div class="errorContainer">
@@ -38,7 +40,9 @@ addEventListener('load', async () => {
       closeOnClick: true,
     });
   }
-});
+}
+
+addEventListener('load', onLoad);
 
 const swiper = new Swiper('.mySwiper', {
   navigation: {
