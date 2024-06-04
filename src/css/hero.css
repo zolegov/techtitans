@@ -288,7 +288,7 @@ screen and (min-resolution: 2dppx) {
   }
 
   .hero-title {
-    width: 552px;
+    max-width: 552px;
     font-size: 124px;
     line-height: 1.19355;
     letter-spacing: 0.014em;
