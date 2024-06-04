@@ -14,19 +14,23 @@
 
 /* TODO=================================================== */
 @media screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
   .hero-container {
     background-image: url(../img/hero/hero-decor-bg-mob-2x.webp);
   }
 
-  @supports (not (background-image: url('../img/hero/hero-decor-bg-mob.webp'))) {
+  @supports (
+    not (background-image: url('../img/hero/hero-decor-bg-mob.webp'))
+  ) {
     .hero-container {
       background-image: url(../img/hero/hero-decor-bg-mob.png);
     }
   }
 
-  @supports (not (background-image: url('../img/hero/hero-decor-bg-mob-2x.webp'))) {
+  @supports (
+    not (background-image: url('../img/hero/hero-decor-bg-mob-2x.webp'))
+  ) {
     .hero-container {
       background-image: url(../img/hero/hero-decor-bg-mob-2x.png);
     }
@@ -106,10 +110,6 @@ screen and (min-resolution: 2dppx) {
   }
 }
 
-.hero-decor-rectangle:hover {
-  background-color: rgba(0, 176, 104, 0.6);
-}
-
 .hero-info {
   padding-top: 37px;
   color: #292929;
@@ -147,7 +147,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 .hero-soc-link:hover {
-  color: #00B068;
+  color: #00b068;
 }
 
 @media screen and (min-width: 768px) {
@@ -164,27 +164,31 @@ screen and (min-resolution: 2dppx) {
     background-position-x: 34px;
   }
 
-/* TODO =================================================*/
+  /* TODO =================================================*/
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .hero-container {
       background-image: url(../img/hero/hero-decor-bg-tab-2x.webp);
     }
   }
 
-  @supports (not (background-image: url('../img/hero/hero-decor-bg-tab.webp'))) {
+  @supports (
+    not (background-image: url('../img/hero/hero-decor-bg-tab.webp'))
+  ) {
     .hero-container {
       background-image: url(../img/hero/hero-decor-bg-tab.png);
     }
   }
 
-  @supports (not (background-image: url('../img/hero/hero-decor-bg-tab-2x.webp'))) {
+  @supports (
+    not (background-image: url('../img/hero/hero-decor-bg-tab-2x.webp'))
+  ) {
     .hero-container {
       background-image: url(../img/hero/hero-decor-bg-tab-2x.png);
     }
   }
-/* TODO =================================================*/
+  /* TODO =================================================*/
 
   .hero-title {
     padding-top: 88px;
@@ -258,10 +262,10 @@ screen and (min-resolution: 2dppx) {
     background-position-x: 32px;
   }
 
-/* TODO============================================= */
+  /* TODO============================================= */
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .hero-container {
       background-image: url(../img/hero/hero-decor-bg-desk-2x.webp);
     }
@@ -273,12 +277,14 @@ screen and (min-resolution: 2dppx) {
     }
   }
 
-  @supports (not (background-image: url('../img/hero/hero-decor-bg-desk-2x.webp'))) {
+  @supports (
+    not (background-image: url('../img/hero/hero-decor-bg-desk-2x.webp'))
+  ) {
     .hero-container {
       background-image: url(../img/hero/hero-decor-bg-desk-2x.png);
     }
   }
-/* TODO============================================= */
+  /* TODO============================================= */
 
   .hero-title-wrap {
     display: flex;
