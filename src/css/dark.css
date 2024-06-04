@@ -13,7 +13,12 @@ body.dark {
 .dark .bio-part-one,
 .dark .bio-part-two,
 .dark .education-item,
-.dark .role-item {
+.dark .role-item,
+.dark .skill-item-text,
+.dark .skills-slider-container-bottom .skill-item-text,
+.dark .my-projects-title,
+.dark .my-project-text,
+.dark .my-projects-subtitle {
   color: #f0f0f0;
 }
 
@@ -23,8 +28,27 @@ body.dark {
   color: #14c57c;
 }
 
+.dark .skills-slider-container {
+  background-color: #214136;
+}
+.dark .skills-slider-container-bottom,
+.dark .my-project-link {
+  background: #2a2d32;
+}
+
+.dark .my-project-link {
+  background: #2a2d32;
+  color: #f0f0f0;
+  transform: background-color 300ms ease;
+}
+
+.dark .my-project-link:hover {
+  background-color: #3b3f45;
+}
+
 .dark .education-item::before,
-.dark .role-item::before {
+.dark .role-item::before,
+.dark .skill-item::before {
   background-color: #14c57c;
 }
 
@@ -35,13 +59,24 @@ body.dark {
   background-color: #14c57c;
 }
 
+.dark .header-menu-link,
+.dark .hero-link,
+.dark .hero-soc-link {
+  transform: background-color 300ms ease;
+}
+
 .dark .header-menu-link:hover,
 .dark .hero-link:hover,
-.dark:hover,
-.dark .hero-soc-link:hover {
+.dark .hero-soc-link:hover,
+.dark .my-project-btn:hover {
   color: #14c57c;
 }
 
 .dark .hero-soc-list {
   background-color: #2a2d32;
+}
+
+.dark .my-project-btn {
+  color: #f0f0f0;
+  transform: color 300ms ease;
 }
