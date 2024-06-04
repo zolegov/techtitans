@@ -21,7 +21,8 @@ body.dark {
 .dark .my-projects-subtitle,
 .dark .benefits-header,
 .dark .benefit-title,
-.dark .benefit-paragraph {
+.dark .benefit-paragraph,
+.dark .faq-title {
   color: #f0f0f0;
 }
 
@@ -29,8 +30,22 @@ body.dark {
 .dark .hero-green,
 .dark .hero-info-greeen,
 .dark .my-projects-title > span,
-.dark .green-word {
+.dark .green-word,
+.dark .green-word,
+.dark .faq-title span {
   color: #14c57c;
+}
+
+.dark .ac {
+  background-color: #2a2d32;
+}
+.dark .ac.is-active {
+  background-color: #204136;
+}
+
+.dark .fac-container .accordion-container .ac .ac-trigger,
+.dark .fac-container .accordion-container .ac .ac-panel .ac-text {
+  color: #f0f0f0;
 }
 
 .dark .skills-slider-container {
