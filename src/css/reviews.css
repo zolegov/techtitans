@@ -151,21 +151,15 @@
 
 @media screen and (min-width: 768px) {
   .reviews {
-    padding-bottom: 124px;
+    padding-bottom: 0;
   }
   .reviews-title {
     font-size: 108px;
     line-height: 1.15;
     letter-spacing: 0.02em;
-    /* width: 391px; */
 
     margin-bottom: 60px;
   }
-
-  /* .reviews-list {
-    gap: 32px;
-  } */
-
   .reviews-item {
     max-width: 640px;
     margin-bottom: 27px;
@@ -213,11 +207,3 @@
   cursor: auto;
   pointer-events: none;
 }
-
-/* .reviews-btn-left .reviews-icon use {
-  href: url('../img/svg/sprite.svg#icon-arrow-left');
-}
-
-.reviews-btn-right .reviews-icon use {
-  href: url('../img/svg/sprite.svg#icon-arrow-right');
-} */
