@@ -28,10 +28,9 @@ const instance = basicLightbox.create(
   {
     onClose: instance => {
       body.classList.remove('modal-open');
+      removeEventListener('keydown', onclickEsc);
     },
-  },
-  {
-    onClose: instance => {
+    onShow: instance => {
       body.classList.add('modal-open');
     },
   }
@@ -42,7 +41,6 @@ instance
   .querySelector('.modal-close-btn')
   .addEventListener('click', () => {
     instance.close();
-    // body.classList.remove('modal-open');
   });
 
 document.querySelector('.input-text').addEventListener('blur', () => {
@@ -79,8 +77,6 @@ const formAll = document.querySelector('.work-together-input');
 function onclickEsc(e) {
   if (e.keyCode === 27) {
     instance.close();
-    body.classList.remove('modal-open');
-    removeEventListener('keydown', onclickEsc);
   }
 }
 
@@ -100,7 +96,7 @@ formAll.addEventListener('submit', async event => {
     });
 
     if (response.status === 201) {
-      instance.show(() => body.classList.add('modal-open'));
+      instance.show();
       form.reset();
       inputSvg.style.display = 'none';
       addEventListener('keydown', onclickEsc);
@@ -117,6 +113,5 @@ formAll.addEventListener('submit', async event => {
 
 function validateEmail(email) {
   const validNO = /^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
-
   return validNO.test(email);
 }
