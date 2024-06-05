@@ -1,5 +1,6 @@
 .hero {
   padding-bottom: 80px;
+  padding-top: 88px;
 }
 
 .hero-container {
@@ -290,7 +291,6 @@
     display: flex;
     flex-direction: row;
     gap: 72px;
-    padding-top: 88px;
   }
 
   .hero-title {
