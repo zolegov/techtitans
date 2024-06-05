@@ -221,7 +221,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .work-together {
+  .work-together .container {
     background-image: url('../img/decor-bg/decor-bg-3.webp');
     background-repeat: no-repeat;
     background-position-x: 400px;
@@ -316,13 +316,12 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .work-together {
+  .work-together .container {
     background-image: url('../img/decor-bg/decor-bg-4.webp');
     background-repeat: no-repeat;
     background-position-x: 717px;
     background-position-y: 14px;
     padding-top: 164px;
-    padding-bottom: 164px;
   }
   .together-picture {
     width: 526px;
@@ -362,7 +361,9 @@
   .textarea-text {
     width: 100%;
   }
-
+  .work-together {
+    padding-bottom: 164px;
+  }
   .modal .modal-close-btn {
     top: 26px;
     right: 26px;
