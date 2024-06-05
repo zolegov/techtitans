@@ -1,3 +1,7 @@
+body {
+  transition: background-color 300ms ease;
+}
+
 body.dark,
 .dark .modal-header {
   background-color: #1e2023;
@@ -39,6 +43,42 @@ body.dark,
   color: #f0f0f0;
 }
 
+.logo,
+.header-menu-link,
+.hero-title,
+.hero-link,
+.hero-info,
+.hero-soc-link,
+.about-title,
+.about-title-second,
+.bio-part-one,
+.bio-part-two,
+.education-item,
+.role-item,
+.skill-item-text,
+.skills-slider-container-bottom .skill-item-text,
+.my-projects-title,
+.my-project-text,
+.my-projects-subtitle,
+.benefits-header,
+.benefit-title,
+.benefit-paragraph,
+.faq-title,
+.reviews-title,
+.reviews-item,
+.reviews-second-title,
+.highlight,
+.work-together-contacts-title,
+.work-together .input-text,
+.work-together .textarea-text,
+.contacts-item-text,
+.footer-main-text,
+.footer-menu-item-link,
+.footer-made-text,
+.text.text-modal-second {
+  transition: color 400ms ease;
+}
+
 .dark .logo-green,
 .dark .hero-green,
 .dark .hero-info-greeen,
@@ -58,6 +98,10 @@ body.dark,
 }
 .dark .ac.is-active {
   background-color: #204136;
+}
+
+.hero-soc-list {
+  transition: background-color 300ms ease;
 }
 
 .dark .fac-container .accordion-container .ac .ac-trigger,
