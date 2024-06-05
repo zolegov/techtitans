@@ -77,7 +77,6 @@
   position: absolute;
   left: 0;
   top: 10px;
-  /* transform: translateY(-50%); */
   width: 4px;
   height: 4px;
   background-color: #00b068;
@@ -101,7 +100,6 @@
   position: absolute;
   left: 0;
   top: 10px;
-  /* transform: translateY(-50%); */
   width: 4px;
   height: 4px;
   background-color: #00b068;
