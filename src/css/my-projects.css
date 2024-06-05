@@ -15,9 +15,6 @@
 .my-projects-title > span {
   color: #00b068;
 }
-.my-projects-list {
-  margin-bottom: 60px;
-}
 
 .my-projects-item {
   margin-bottom: 48px;
@@ -25,6 +22,10 @@
   &.is-hidden {
     display: none;
   }
+}
+
+.my-projects-item:last-child {
+  margin-bottom: 0;
 }
 
 .my-project-text {
@@ -86,8 +87,9 @@
 }
 
 .my-project-btn {
-  display: block;
   margin: 0 auto;
+  margin-top: 60px;
+  display: block;
   border: none;
   border-bottom: 1px solid #00b068;
   color: #292929;
@@ -121,10 +123,6 @@
     line-height: 1.15;
     letter-spacing: 0.02em;
     margin-bottom: 60px;
-  }
-
-  .my-projects-list {
-    margin-bottom: 12px;
   }
 
   .my-projects-item {
@@ -161,6 +159,7 @@
   }
 
   .my-project-btn {
+    margin-top: 12px;
     font-size: 20px;
     line-height: 1.6;
     letter-spacing: 0.03em;
