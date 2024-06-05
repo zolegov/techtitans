@@ -1,10 +1,10 @@
 .hero {
   padding-bottom: 80px;
-  padding-top: 88px;
 }
 
 .hero-container {
   position: relative;
+  padding-top: 112px;
   padding-bottom: 72px;
   background-image: url(../img/hero/hero-decor-bg-mob.webp);
   background-repeat: no-repeat;
@@ -13,7 +13,6 @@
   background-position-x: 20px;
 }
 
-/* TODO=================================================== */
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
@@ -38,10 +37,7 @@
   }
 }
 
-/* TODO=================================================== */
-
 .hero-title {
-  padding-top: 112px;
   color: #292929;
   font-family: Impact;
   font-size: 64px;
@@ -82,16 +78,6 @@
   position: relative;
 }
 
-.hero-link:hover + .hero-decor-rectangle {
-  background-color: rgba(0, 176, 104, 0.6);
-}
-
-.hero-icon-arrow {
-  padding-left: 4px;
-  width: 32px;
-  height: 30px;
-}
-
 .hero-decor-rectangle {
   display: inline-block;
   width: 165px;
@@ -103,6 +89,16 @@
   right: 20px;
   cursor: pointer;
   transition: background-color 300ms ease;
+}
+
+.hero-link:hover + .hero-decor-rectangle {
+  background-color: rgba(0, 176, 104, 0.6);
+}
+
+.hero-icon-arrow {
+  padding-left: 4px;
+  width: 32px;
+  height: 30px;
 }
 
 @media screen and (min-width: 335px) {
@@ -157,15 +153,14 @@
   }
 
   .hero-container {
+    padding-top: 88px;
     padding-bottom: 0;
     background-image: url(../img/hero/hero-decor-bg-tab.webp);
-    background-repeat: no-repeat;
     background-size: 704px 896px;
     background-position-y: 13px;
     background-position-x: 34px;
   }
 
-  /* TODO =================================================*/
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
@@ -189,10 +184,8 @@
       background-image: url(../img/hero/hero-decor-bg-tab-2x.png);
     }
   }
-  /* TODO =================================================*/
 
   .hero-title {
-    padding-top: 88px;
     font-size: 124px;
     line-height: 1.19355;
     letter-spacing: 0.01451em;
@@ -232,20 +225,14 @@
     letter-spacing: 0.025em;
   }
 
+
   .hero-soc-list {
-    display: flex;
     flex-direction: row;
     gap: 40px;
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 40px;
-  }
-
-  .hero-soc-link {
-    color: #292929;
-    font-weight: 300;
-    line-height: 1.5;
-    letter-spacing: 0.03125em;
+    
   }
 }
 
@@ -255,15 +242,13 @@
   }
 
   .hero-container {
-    padding-bottom: 0;
+    padding-bottom: 96px;
     background-image: url(../img/hero/hero-decor-bg-desk.webp);
-    background-repeat: no-repeat;
     background-size: 1216px 772px;
     background-position-y: 16px;
     background-position-x: 32px;
   }
 
-  /* TODO============================================= */
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
@@ -285,7 +270,6 @@
       background-image: url(../img/hero/hero-decor-bg-desk-2x.png);
     }
   }
-  /* TODO============================================= */
 
   .hero-title-wrap {
     display: flex;
@@ -295,8 +279,6 @@
 
   .hero-title {
     max-width: 552px;
-    font-size: 124px;
-    line-height: 1.19355;
     letter-spacing: 0.014em;
     padding-top: 0;
     padding-bottom: 0;
@@ -307,16 +289,13 @@
   }
 
   .hero-info-wrap {
-    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 136px;
     margin-top: 80px;
-    padding-bottom: 96px;
   }
 
   .hero-link {
-    padding: 0;
     margin-left: 72px;
   }
 
@@ -326,12 +305,11 @@
   }
 
   .hero-decor-rectangle {
-    top: 524px;
+    top: 612px;
     right: 760px;
   }
 
   .hero-info {
-    padding-top: 0;
     padding-bottom: 0;
     width: 592px;
     letter-spacing: 0.027em;
