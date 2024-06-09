@@ -46,10 +46,16 @@ const body = document.querySelector('body');
 const key = 'theme';
 
 const getCurrentTheme = localStorage.getItem(key);
+const isSystemDarkTheme = window.matchMedia(
+  '(prefers-color-scheme: dark)'
+).matches; //returns true or false
 
 //checks the Local Storage which theme is set
 addEventListener('load', () => {
-  if (getCurrentTheme === 'dark') {
+  if (
+    getCurrentTheme === 'dark' ||
+    (getCurrentTheme === null && isSystemDarkTheme)
+  ) {
     body.classList.add('dark');
     themeChangeCheckboxArr.forEach(el => {
       el.checked = true;
